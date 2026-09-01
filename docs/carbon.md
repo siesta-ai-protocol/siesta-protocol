@@ -20,4 +20,4 @@ Reference implementation wrapping [nesbot/carbon](https://carbon.nesbot.com/).
 - `locale` (default: en)
 - `weekStartsAt` (default: 1 = Monday)
 
-See [agent scenarios](https://github.com/siesta-php/siesta/blob/main/examples/calendar/agent-scenarios.md).
+See [agent scenarios](https://github.com/siesta-ai-protocol/siesta/blob/main/examples/calendar/agent-scenarios.md).

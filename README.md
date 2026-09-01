@@ -12,9 +12,9 @@ Language-agnostic specification for **AI-ready OOP libraries**. Agents discover 
 
 | Repo | Purpose |
 |------|---------|
-| **[siesta-protocol](https://github.com/siesta-php/siesta-protocol)** (this repo) | Spec, JSON schemas, adapter mappings, registry format |
-| **[siesta-php](https://github.com/siesta-php/siesta-php)** | PHP reference runtime + Carbon adapter |
-| **[siesta-ts](https://github.com/siesta-php/siesta-ts)** | TypeScript runtime |
+| **[siesta-protocol](https://github.com/siesta-ai-protocol/siesta-protocol)** (this repo) | Spec, JSON schemas, adapter mappings, registry format |
+| **[siesta-php](https://github.com/siesta-ai-protocol/siesta-php)** | PHP reference runtime + Carbon adapter |
+| **[siesta-ts](https://github.com/siesta-ai-protocol/siesta-ts)** | TypeScript runtime |
 
 ## Protocol Operations
 

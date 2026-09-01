@@ -4,7 +4,7 @@ title: Protocol
 
 # Siesta Protocol v1.0
 
-See the full specification in the [repository](https://github.com/siesta-php/siesta/blob/main/spec/SIESTA.md).
+See the full specification in the [repository](https://github.com/siesta-ai-protocol/siesta/blob/main/spec/SIESTA.md).
 
 ## Core Flow
 

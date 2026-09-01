@@ -7,7 +7,7 @@ title: Quickstart
 ## PHP
 
 ```bash
-git clone https://github.com/siesta-php/siesta-php.git
+git clone https://github.com/siesta-ai-protocol/siesta-php.git
 cd siesta-php
 composer install
 php tools/siesta-cli/bin/siesta discover
@@ -30,7 +30,7 @@ $result = $siesta->handle('siesta.create', [
 ## TypeScript
 
 ```bash
-git clone https://github.com/siesta-php/siesta-ts.git
+git clone https://github.com/siesta-ai-protocol/siesta-ts.git
 cd siesta-ts
 npm install && npm run build
 npm run discover

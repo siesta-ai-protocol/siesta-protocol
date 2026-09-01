@@ -12,10 +12,10 @@ Libraries that implement the Siesta protocol.
 
 ## Add Your Library
 
-See [CONTRIBUTING](https://github.com/siesta-php/siesta/blob/main/CONTRIBUTING.md#adding-a-supported-library).
+See [CONTRIBUTING](https://github.com/siesta-ai-protocol/siesta/blob/main/CONTRIBUTING.md#adding-a-supported-library).
 
 Embed the badge in your README:
 
 ```markdown
-[![Siesta Ready](https://siesta-php.github.io/siesta/assets/badges/siesta-ready.svg)](https://siesta-php.github.io/siesta/libraries/)
+[![Siesta Ready](https://siesta-ai-protocol.github.io/siesta/assets/badges/siesta-ready.svg)](https://siesta-ai-protocol.github.io/siesta/libraries/)
 ```

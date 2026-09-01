@@ -4,10 +4,10 @@ libraries:
     description: Date and time manipulation via nesbot/carbon
     language: PHP
     package: siesta/carbon
-    repository: https://github.com/siesta-php/siesta
+    repository: https://github.com/siesta-ai-protocol/siesta
     manifest: packages/siesta-carbon/siesta.manifest.json
     siestaVersion: "1.0"
     status: official
     categories: [datetime, laravel]
-    maintainer: siesta-php
+    maintainer: siesta-ai-protocol
     added: 2026-09-02
