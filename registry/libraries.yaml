@@ -1,0 +1,13 @@
+libraries:
+  - id: siesta-carbon
+    name: Carbon Date/Time
+    description: Date and time manipulation via nesbot/carbon
+    language: PHP
+    package: siesta/carbon
+    repository: https://github.com/siesta-php/siesta
+    manifest: packages/siesta-carbon/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: official
+    categories: [datetime, laravel]
+    maintainer: siesta-php
+    added: 2026-09-02

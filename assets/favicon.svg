@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Siesta">
+  <rect width="32" height="32" rx="6" fill="#3D405B"/>
+  <rect x="8" y="10" width="16" height="12" rx="4" fill="#81B29A"/>
+  <rect x="10" y="13" width="12" height="4" rx="2" fill="#3D405B"/>
+  <text x="20" y="9" font-size="6" fill="#E07A5F" font-style="italic">z</text>
+</svg>

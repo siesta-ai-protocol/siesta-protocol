@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Siesta Library Manifest",
+  "type": "object",
+  "required": ["siesta", "library", "version", "description", "factories", "types"],
+  "properties": {
+    "siesta": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "library": { "type": "string", "minLength": 1 },
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "minSiestaVersion": { "type": "string" },
+    "adapter": {
+      "type": "object",
+      "required": ["class"],
+      "properties": {
+        "class": { "type": "string", "description": "FQCN of LibraryAdapterInterface implementation" }
+      }
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string" },
+          "default": {},
+          "description": { "type": "string" },
+          "enum": { "type": "array" }
+        },
+        "required": ["type"]
+      }
+    },
+    "factories": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["returns", "params"],
+        "properties": {
+          "returns": { "type": "string" },
+          "description": { "type": "string" },
+          "params": { "$ref": "#/definitions/jsonSchemaObject" }
+        }
+      }
+    },
+    "types": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["methods"],
+        "properties": {
+          "methods": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": ["returns", "params"],
+              "properties": {
+                "returns": { "type": "string" },
+                "description": { "type": "string" },
+                "params": { "$ref": "#/definitions/jsonSchemaObject" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "jsonSchemaObject": {
+      "type": "object",
+      "required": ["type", "properties", "required"],
+      "properties": {
+        "type": { "const": "object" },
+        "properties": { "type": "object" },
+        "required": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "siesta/protocol",
+    "description": "Siesta protocol specification — language-agnostic AI-ready OOP library contract",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0"
+}
