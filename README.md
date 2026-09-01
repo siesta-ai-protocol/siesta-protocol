@@ -6,7 +6,7 @@
 
 <p align="center"><strong>Let the libraries work. Take a siesta.</strong></p>
 
-Language-agnostic specification for **AI-ready OOP libraries**. Agents discover `siesta.manifest.json` files, validate them, and invoke capabilities through structured protocol operations — no code search required.
+Language-agnostic specification for **AI-ready OOP libraries**. Instead of agents searching your codebase and reimplementing library behavior from scratch, they discover `siesta.manifest.json` files, validate them, and invoke capabilities through structured protocol calls.
 
 ## Repositories
 
