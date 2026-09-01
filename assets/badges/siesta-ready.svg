@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20" role="img" aria-label="Siesta Ready">
+  <rect width="120" height="20" rx="4" fill="#3D405B"/>
+  <circle cx="12" cy="10" r="6" fill="#81B29A"/>
+  <text x="24" y="14" font-family="system-ui,sans-serif" font-size="10" fill="#F2CC8F">Siesta Ready</text>
+</svg>
