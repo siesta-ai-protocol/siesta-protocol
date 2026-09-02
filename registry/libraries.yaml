@@ -10,4 +10,4 @@ libraries:
     status: official
     categories: [datetime, laravel]
     maintainer: siesta-ai-protocol
-    added: 2026-09-02
+    added: "2026-09-02"

@@ -28,6 +28,15 @@ Language-agnostic specification for **AI-ready OOP libraries**. Instead of agent
 | `siesta.invoke` | Method on handle → value or new handle |
 | `siesta.release` | Dispose handles |
 | `siesta.batch` | Operation sequence |
+| `siesta.describe` | Docs for a factory or method |
+
+## Schemas
+
+| Schema | Path |
+|--------|------|
+| Manifest (`siesta.manifest.json`) | [spec/manifest-schema.json](spec/manifest-schema.json) |
+| Wire messages (params / results / JSON-RPC) | [spec/message-schema.json](spec/message-schema.json) |
+| Supported libraries registry | [registry/schema.json](registry/schema.json) |
 
 ## Discovery Model
 
@@ -51,7 +60,7 @@ No standalone server required — applications embed protocol awareness via `Sie
 }
 ```
 
-See [spec/SIESTA.md](spec/SIESTA.md) and [spec/manifest-schema.json](spec/manifest-schema.json).
+See [spec/SIESTA.md](spec/SIESTA.md) for the normative operation table.
 
 ## PHP / Composer
 
@@ -59,7 +68,11 @@ See [spec/SIESTA.md](spec/SIESTA.md) and [spec/manifest-schema.json](spec/manife
 composer require siesta/protocol
 ```
 
-Schema path: `vendor/siesta/protocol/spec/manifest-schema.json`
+Schema paths under `vendor/siesta/protocol/`:
+
+- `spec/manifest-schema.json`
+- `spec/message-schema.json`
+- `registry/schema.json`
 
 ## License
 

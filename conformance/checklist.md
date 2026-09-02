@@ -10,7 +10,13 @@
 
 ## Adapter Implementers
 
-- [ ] JSON-RPC 2.0 wire format
-- [ ] All v1 operations implemented
+- [ ] JSON-RPC 2.0 wire format per `spec/message-schema.json`
+- [ ] Request/response shapes match `*Params` / `*Result` definitions
+- [ ] All v1 operations implemented (`discover` … `describe`)
 - [ ] Handle lifecycle (create, invoke, release, expired detection)
 - [ ] Manifest introspection via `siesta.introspect`
+
+## Registry
+
+- [ ] `registry/libraries.yaml` validates against `registry/schema.json`
+- [ ] Entry `id` matches `manifest.library`

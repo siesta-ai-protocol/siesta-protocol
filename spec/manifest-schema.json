@@ -1,76 +1,191 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://siesta-ai-protocol.github.io/siesta-protocol/spec/manifest-schema.json",
   "title": "Siesta Library Manifest",
+  "description": "JSON Schema for siesta.manifest.json — the contract agents read before calling a library.",
   "type": "object",
   "required": ["siesta", "library", "version", "description", "factories", "types"],
+  "additionalProperties": false,
   "properties": {
-    "siesta": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
-    "library": { "type": "string", "minLength": 1 },
-    "version": { "type": "string" },
-    "description": { "type": "string" },
-    "minSiestaVersion": { "type": "string" },
+    "siesta": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Manifest format version (major.minor)"
+    },
+    "library": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable library id used in protocol calls"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Library package version"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable summary of library capabilities"
+    },
+    "minSiestaVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Minimum Siesta protocol version required"
+    },
     "adapter": {
       "type": "object",
       "required": ["class"],
+      "additionalProperties": false,
       "properties": {
-        "class": { "type": "string", "description": "FQCN of LibraryAdapterInterface implementation" }
+        "class": {
+          "type": "string",
+          "minLength": 1,
+          "description": "FQCN / module export of LibraryAdapterInterface implementation"
+        }
       }
     },
     "config": {
       "type": "object",
-      "additionalProperties": {
-        "type": "object",
-        "properties": {
-          "type": { "type": "string" },
-          "default": {},
-          "description": { "type": "string" },
-          "enum": { "type": "array" }
-        },
-        "required": ["type"]
-      }
+      "description": "Library-level settings adjustable via siesta.configure",
+      "additionalProperties": { "$ref": "#/definitions/configProperty" }
     },
     "factories": {
       "type": "object",
-      "additionalProperties": {
-        "type": "object",
-        "required": ["returns", "params"],
-        "properties": {
-          "returns": { "type": "string" },
-          "description": { "type": "string" },
-          "params": { "$ref": "#/definitions/jsonSchemaObject" }
-        }
-      }
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/definitions/factory" }
     },
     "types": {
       "type": "object",
-      "additionalProperties": {
-        "type": "object",
-        "required": ["methods"],
-        "properties": {
-          "methods": {
-            "type": "object",
-            "additionalProperties": {
-              "type": "object",
-              "required": ["returns", "params"],
-              "properties": {
-                "returns": { "type": "string" },
-                "description": { "type": "string" },
-                "params": { "$ref": "#/definitions/jsonSchemaObject" }
-              }
-            }
-          }
-        }
-      }
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/definitions/typeDef" }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Optional experimental capability block",
+      "additionalProperties": true
     }
   },
   "definitions": {
+    "configProperty": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["string", "integer", "number", "boolean", "array", "object"]
+        },
+        "default": true,
+        "description": { "type": "string" },
+        "enum": {
+          "type": "array",
+          "minItems": 1
+        },
+        "minimum": { "type": "number" },
+        "maximum": { "type": "number" },
+        "minLength": { "type": "integer", "minimum": 0 },
+        "maxLength": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "factory": {
+      "type": "object",
+      "required": ["returns", "params"],
+      "additionalProperties": false,
+      "properties": {
+        "returns": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Type name declared under types"
+        },
+        "description": { "type": "string" },
+        "params": { "$ref": "#/definitions/jsonSchemaObject" }
+      }
+    },
+    "typeDef": {
+      "type": "object",
+      "required": ["methods"],
+      "additionalProperties": false,
+      "properties": {
+        "description": { "type": "string" },
+        "methods": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "$ref": "#/definitions/method" }
+        }
+      }
+    },
+    "method": {
+      "type": "object",
+      "required": ["returns", "params"],
+      "additionalProperties": false,
+      "properties": {
+        "returns": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Type name, primitive (string|integer|number|boolean), or void"
+        },
+        "description": { "type": "string" },
+        "params": { "$ref": "#/definitions/jsonSchemaObject" }
+      }
+    },
     "jsonSchemaObject": {
       "type": "object",
       "required": ["type", "properties", "required"],
+      "description": "Full JSON Schema object form for factory/method args — not flat per-argument maps",
       "properties": {
         "type": { "const": "object" },
+        "properties": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/definitions/jsonSchemaProperty" }
+        },
+        "required": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "additionalProperties": {
+          "type": ["boolean", "object"]
+        }
+      }
+    },
+    "jsonSchemaProperty": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "oneOf": [
+            {
+              "type": "string",
+              "enum": ["string", "integer", "number", "boolean", "array", "object", "null"]
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["string", "integer", "number", "boolean", "array", "object", "null"]
+              }
+            }
+          ]
+        },
+        "description": { "type": "string" },
+        "default": true,
+        "enum": { "type": "array", "minItems": 1 },
+        "const": true,
+        "minimum": { "type": "number" },
+        "maximum": { "type": "number" },
+        "exclusiveMinimum": { "type": "number" },
+        "exclusiveMaximum": { "type": "number" },
+        "minLength": { "type": "integer", "minimum": 0 },
+        "maxLength": { "type": "integer", "minimum": 0 },
+        "pattern": { "type": "string" },
+        "format": { "type": "string" },
+        "items": { "type": "object" },
         "properties": { "type": "object" },
-        "required": { "type": "array", "items": { "type": "string" } }
+        "required": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "additionalProperties": {
+          "type": ["boolean", "object"]
+        }
       }
     }
   }
