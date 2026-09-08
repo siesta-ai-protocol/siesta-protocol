@@ -1,17 +1,21 @@
 # Top 200 data
 
-Source list: [`libraries.json`](libraries.json)  
-Generator: [`generate.mjs`](generate.mjs)
+Source list: [`libraries.json`](libraries.json)
+
+| Script | Purpose |
+|--------|---------|
+| [`generate.mjs`](generate.mjs) | Initial packages + tracker + registry |
+| [`deepen-lib.mjs`](deepen-lib.mjs) | Shared S→D helpers |
+| [`deepen-pass.mjs`](deepen-pass.mjs) | Deepen batch 1 |
+| [`deepen-pass-2.mjs`](deepen-pass-2.mjs) | Deepen batch 2 |
+| [`deepen-pass-3.mjs`](deepen-pass-3.mjs) | Deepen remaining |
 
 ```bash
 # from monorepo root
 node siesta-protocol/registry/top200-data/generate.mjs
+node siesta-protocol/registry/top200-data/deepen-pass.mjs
+node siesta-protocol/registry/top200-data/deepen-pass-2.mjs
+node siesta-protocol/registry/top200-data/deepen-pass-3.mjs
 ```
-
-Regenerates:
-
-- [`../TOP200.md`](../TOP200.md) tracker
-- [`../libraries.yaml`](../libraries.yaml) registry
-- wrapper packages under `siesta-php/packages/siesta-*` and `siesta-ts/packages/*`
 
 Does not overwrite existing `siesta-carbon` / `carbon-date` packages (`existing: true`).
