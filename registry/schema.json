@@ -68,6 +68,14 @@
           "type": "string",
           "pattern": "^\\d+\\.\\d+$"
         },
+        "packageVersion": {
+          "type": "string",
+          "description": "Declared upstream package version for the listed wrapper"
+        },
+        "packageRange": {
+          "type": "string",
+          "description": "Compatible upstream version range"
+        },
         "status": {
           "type": "string",
           "enum": ["official", "community", "experimental"]

@@ -33,6 +33,7 @@
         "TYPE_MISMATCH",
         "CONFIG_INVALID",
         "PERMISSION_DENIED",
+        "VERSION_UNSUPPORTED",
         "INTERNAL"
       ]
     },
@@ -97,6 +98,14 @@
         "executable": { "type": "boolean" },
         "registered": { "type": "boolean" },
         "adapter": { "type": ["string", "null"] },
+        "package": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "version": { "type": "string" },
+            "range": { "type": "string" }
+          }
+        },
         "validationErrors": {
           "type": "array",
           "items": { "type": "string" }
@@ -220,7 +229,11 @@
       "required": ["library"],
       "additionalProperties": false,
       "properties": {
-        "library": { "$ref": "#/definitions/libraryId" }
+        "library": { "$ref": "#/definitions/libraryId" },
+        "packageVersion": {
+          "type": "string",
+          "description": "Upstream package version used to filter factories/methods via since/until"
+        }
       }
     },
     "introspectResult": {
@@ -228,9 +241,13 @@
       "required": ["siestaVersion", "manifest"],
       "properties": {
         "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "packageVersion": {
+          "type": "string",
+          "description": "Resolved upstream version used for surface filtering"
+        },
         "manifest": {
           "type": "object",
-          "description": "Full library manifest (see manifest-schema.json)"
+          "description": "Library manifest (filtered when packageVersion is set)"
         }
       }
     },
@@ -272,6 +289,10 @@
           "type": "object",
           "additionalProperties": true,
           "default": {}
+        },
+        "packageVersion": {
+          "type": "string",
+          "description": "Upstream package version for since/until enforcement"
         }
       }
     },

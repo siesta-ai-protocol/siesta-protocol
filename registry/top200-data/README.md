@@ -8,7 +8,7 @@ Source list: [`libraries.json`](libraries.json)
 | [`deepen-lib.mjs`](deepen-lib.mjs) | Shared S→D helpers |
 | [`deepen-pass.mjs`](deepen-pass.mjs) | Deepen batch 1 |
 | [`deepen-pass-2.mjs`](deepen-pass-2.mjs) | Deepen batch 2 |
-| [`deepen-pass-3.mjs`](deepen-pass-3.mjs) | Deepen remaining |
+| [`add-package-versions.mjs`](add-package-versions.mjs) | Add `package` + `since` + registry version fields |
 
 ```bash
 # from monorepo root

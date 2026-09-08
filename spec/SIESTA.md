@@ -30,7 +30,7 @@ Applications embed `SiestaKernel` and call `handle(method, params)` in-process. 
 |--------|--------|--------|
 | `siesta.discover` | `{}` | `{ siestaVersion, sessionId, projectRoot?, libraries[] }` |
 | `siesta.validate` | `{}` | `{ siestaVersion, valid, libraries[] }` |
-| `siesta.introspect` | `{ library }` | `{ siestaVersion, manifest }` |
+| `siesta.introspect` | `{ library, packageVersion? }` | `{ siestaVersion, packageVersion?, manifest }` |
 | `siesta.configure` | `{ library, settings }` | `{ siestaVersion, library, config }` |
 | `siesta.create` | `{ library, factory, args? }` | `{ siestaVersion, handle, type, snapshot }` |
 | `siesta.invoke` | `{ handle, method, args? }` | handle result **or** `{ siestaVersion, value, type? }` |
@@ -82,3 +82,52 @@ See [manifest-schema.json](manifest-schema.json) and [errors.md](errors.md).
 | `value` | Primitive / typed result returned inline (no new handle) |
 
 Chainable methods that return objects produce a **new** handle. Value methods return `{ value, type }`.
+
+## Package versions and surface constraints
+
+Manifests declare both the **Siesta wrapper version** (`version`) and the **upstream library**:
+
+```json
+{
+  "version": "1.0.0",
+  "package": {
+    "name": "nesbot/carbon",
+    "version": "3.0.0",
+    "range": "^3.0"
+  }
+}
+```
+
+| Field | Meaning |
+|-------|---------|
+| `version` | Siesta adapter / wrapper semver |
+| `package.name` | Composer/npm package id |
+| `package.version` | Upstream version this surface was authored against (default filter) |
+| `package.range` | Compatible upstream constraint for agents/installers |
+
+Factories, types, and methods may declare `since` / `until` against the **upstream** package version:
+
+- `since` — inclusive minimum (`>=`)
+- `until` — exclusive maximum (`<`)
+
+```json
+"parse": {
+  "returns": "DateTime",
+  "since": "3.0.0",
+  "until": "4.0.0",
+  "params": { "type": "object", "properties": {}, "required": [] }
+}
+```
+
+### Filtering
+
+- `siesta.introspect` accepts optional `packageVersion` and returns a filtered manifest plus resolved `packageVersion`.
+- When omitted, runtimes use `package.version` from the manifest (if present).
+- `siesta.create` / `siesta.invoke` enforce the same constraints and return `VERSION_UNSUPPORTED` when a capability is out of range.
+
+Example:
+
+```
+siesta.introspect { library: "siesta-carbon", packageVersion: "2.72.0" }
+→ factories/methods with since >= 3.0.0 are omitted
+```

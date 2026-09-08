@@ -7,6 +7,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-carbon/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "3.0.0"
+    packageRange: "^3.0"
     status: official
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -19,6 +21,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-guzzle/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -31,6 +35,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-monolog/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [logging]
     maintainer: siesta-ai-protocol
@@ -43,6 +49,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-uuid/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [uuid]
     maintainer: siesta-ai-protocol
@@ -55,6 +63,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-flysystem/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -67,6 +77,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-commonmark/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [markdown]
     maintainer: siesta-ai-protocol
@@ -79,6 +91,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-csv/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -91,6 +105,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-uri/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -103,6 +119,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-period/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -115,6 +133,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-money/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -127,6 +147,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-brick-math/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -139,6 +161,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-brick-money/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -151,6 +175,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-collections/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -163,6 +189,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-inflector/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -175,6 +203,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-dbal/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -187,6 +217,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-http-client/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -199,6 +231,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-validator/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -211,6 +245,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-serializer/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -223,6 +259,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-finder/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -235,6 +273,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-string/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -247,6 +287,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-filesystem/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -259,6 +301,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-cache/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -271,6 +315,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-mime/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [mail]
     maintainer: siesta-ai-protocol
@@ -283,6 +329,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-mailer/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [mail]
     maintainer: siesta-ai-protocol
@@ -295,6 +343,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-symfony-uid/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [uuid]
     maintainer: siesta-ai-protocol
@@ -307,6 +357,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-clock/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -319,6 +371,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-process/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -331,6 +385,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-dom-crawler/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [dom]
     maintainer: siesta-ai-protocol
@@ -343,6 +399,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-css-selector/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [dom]
     maintainer: siesta-ai-protocol
@@ -355,6 +413,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-yaml/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -367,6 +427,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-var-dumper/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -379,6 +441,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-event-dispatcher/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -391,6 +455,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-property-access/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -403,6 +469,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-translation/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -415,6 +483,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-psr7/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -427,6 +497,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-promises/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -439,6 +511,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-email-validator/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -451,6 +525,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-portable-ascii/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -463,6 +539,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-anti-xss/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -475,6 +553,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-respect-validation/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -487,6 +567,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-chronos/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -499,6 +581,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-cake-utility/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -511,6 +595,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-intervention-image/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [image]
     maintainer: siesta-ai-protocol
@@ -523,6 +609,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-spatie-image/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [image]
     maintainer: siesta-ai-protocol
@@ -535,6 +623,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-browsershot/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -547,6 +637,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-pdf-to-text/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -559,6 +651,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-laravel-data/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -571,6 +665,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-once/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -583,6 +679,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-dompdf-wrapper/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -595,6 +693,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-dompdf/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -607,6 +707,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-phpspreadsheet/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -619,6 +721,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-phpword/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -631,6 +735,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-tcpdf/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -643,6 +749,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-fpdi/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -655,6 +763,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-escpos/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -667,6 +777,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-predis/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -679,6 +791,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-elasticsearch/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -691,6 +805,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-aws-sdk/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -703,6 +819,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-google-cloud/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -715,6 +833,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-stripe/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -727,6 +847,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-twilio/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -739,6 +861,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-sendgrid/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [mail]
     maintainer: siesta-ai-protocol
@@ -751,6 +875,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-mailgun/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [mail]
     maintainer: siesta-ai-protocol
@@ -763,6 +889,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-phpmailer/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [mail]
     maintainer: siesta-ai-protocol
@@ -775,6 +903,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-swiftmailer/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [mail]
     maintainer: siesta-ai-protocol
@@ -787,6 +917,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-php-jwt/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -799,6 +931,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-lcobucci-jwt/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -811,6 +945,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-defuse-encryption/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -823,6 +959,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-halite/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -835,6 +973,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-constant-time-encoding/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -847,6 +987,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-hashids/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -859,6 +1001,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-ramsey-collection/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -871,6 +1015,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-illuminate-support/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -883,6 +1029,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-illuminate-validation/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -895,6 +1043,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-illuminate-filesystem/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -907,6 +1057,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-illuminate-http/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -919,6 +1071,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-collect/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -931,6 +1085,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-assert/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -943,6 +1099,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-webmozart-assert/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -955,6 +1113,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-php-parser/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -967,6 +1127,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-twig/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -979,6 +1141,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-smarty/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -991,6 +1155,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-spout/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1003,6 +1169,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-openspout/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1015,6 +1183,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-box-spout/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1027,6 +1197,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-forceutf8/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1039,6 +1211,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-patchwork-utf8/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1051,6 +1225,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-jmespath/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1063,6 +1239,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-mtdowling-jmespath/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1075,6 +1253,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-composer-semver/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1087,6 +1267,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-json-schema/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1099,6 +1281,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-opis-json-schema/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1111,6 +1295,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-swaggest-json-schema/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1123,6 +1309,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-nette-utils/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1135,6 +1323,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-nette-schema/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1147,6 +1337,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-reflection-docblock/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1159,6 +1351,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-sebastian-diff/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1171,6 +1365,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-cron-expression/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1183,6 +1379,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-brick-date-time/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1195,6 +1393,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-phpdotenv/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1207,6 +1407,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/carbon-date/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "4.0.0"
+    packageRange: "^4.0"
     status: official
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1219,6 +1421,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/axios/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1231,6 +1435,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/zod/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1243,6 +1449,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/dayjs/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1255,6 +1463,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/uuid-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [uuid]
     maintainer: siesta-ai-protocol
@@ -1267,6 +1477,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/lodash-es/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -1279,6 +1491,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/lodash/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -1291,6 +1505,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/marked/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [markdown]
     maintainer: siesta-ai-protocol
@@ -1303,6 +1519,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/cheerio/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [dom]
     maintainer: siesta-ai-protocol
@@ -1315,6 +1533,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/ms/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1327,6 +1547,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/semver/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1339,6 +1561,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/qs/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1351,6 +1575,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/nanoid/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [uuid]
     maintainer: siesta-ai-protocol
@@ -1363,6 +1589,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/validator-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1375,6 +1603,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/immutable/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -1387,6 +1617,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/luxon/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1399,6 +1631,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/moment/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -1411,6 +1645,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/bluebird/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1423,6 +1659,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/rxjs/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -1435,6 +1673,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/underscore/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -1447,6 +1687,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/ramda/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -1459,6 +1701,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/joi/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1471,6 +1715,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/yup/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1483,6 +1729,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/ajv/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1495,6 +1743,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/superagent/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1507,6 +1757,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/node-fetch/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1519,6 +1771,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/got/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1531,6 +1785,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/ky/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1543,6 +1799,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/undici/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1555,6 +1813,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/form-data/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1567,6 +1827,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/mime-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1579,6 +1841,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/mime-types/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1591,6 +1855,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/content-type/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1603,6 +1869,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/cookie/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1615,6 +1883,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/tough-cookie/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1627,6 +1897,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/url-parse/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1639,6 +1911,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/query-string/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1651,6 +1925,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/path-to-regexp/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1663,6 +1939,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/express/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1675,6 +1953,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/fastify/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -1687,6 +1967,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/debug/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [logging]
     maintainer: siesta-ai-protocol
@@ -1699,6 +1981,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/pino/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [logging]
     maintainer: siesta-ai-protocol
@@ -1711,6 +1995,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/winston/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [logging]
     maintainer: siesta-ai-protocol
@@ -1723,6 +2009,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/chalk/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1735,6 +2023,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/picocolors/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1747,6 +2037,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/strip-ansi/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1759,6 +2051,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/string-width/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1771,6 +2065,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/camelcase/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1783,6 +2079,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/slugify/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1795,6 +2093,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/change-case/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1807,6 +2107,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/he/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1819,6 +2121,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/entities/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -1831,6 +2135,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/sanitize-html/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1843,6 +2149,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/dompurify/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [validation]
     maintainer: siesta-ai-protocol
@@ -1855,6 +2163,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/jsonwebtoken/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -1867,6 +2177,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/jose/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -1879,6 +2191,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/bcryptjs/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -1891,6 +2205,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/crypto-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -1903,6 +2219,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/node-forge/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [crypto]
     maintainer: siesta-ai-protocol
@@ -1915,6 +2233,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/ulid/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [uuid]
     maintainer: siesta-ai-protocol
@@ -1927,6 +2247,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/csv-parse/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1939,6 +2261,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/csv-stringify/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1951,6 +2275,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/papaparse/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1963,6 +2289,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/xlsx/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1975,6 +2303,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/exceljs/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -1987,6 +2317,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/pdfkit/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -1999,6 +2331,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/pdf-lib/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -2011,6 +2345,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/jspdf/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [pdf]
     maintainer: siesta-ai-protocol
@@ -2023,6 +2359,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/sharp/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [image]
     maintainer: siesta-ai-protocol
@@ -2035,6 +2373,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/jimp/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [image]
     maintainer: siesta-ai-protocol
@@ -2047,6 +2387,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/markdown-it/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [markdown]
     maintainer: siesta-ai-protocol
@@ -2059,6 +2401,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/turndown/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [markdown]
     maintainer: siesta-ai-protocol
@@ -2071,6 +2415,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/highlight-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -2083,6 +2429,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/decimal-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -2095,6 +2443,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/big-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -2107,6 +2457,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/bignumber-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -2119,6 +2471,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/currency-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -2131,6 +2485,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/dinero-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -2143,6 +2499,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/numeral/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [money]
     maintainer: siesta-ai-protocol
@@ -2155,6 +2513,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/i18next/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
@@ -2167,6 +2527,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/mustache/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -2179,6 +2541,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/handlebars/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -2191,6 +2555,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/ejs/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [other]
     maintainer: siesta-ai-protocol
@@ -2203,6 +2569,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/yaml-js/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2215,6 +2583,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/js-yaml/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2227,6 +2597,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/dotenv/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2239,6 +2611,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/fs-extra/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2251,6 +2625,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/glob/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2263,6 +2639,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/fast-glob/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2275,6 +2653,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/chokidar/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2287,6 +2667,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/jszip/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [file]
     maintainer: siesta-ai-protocol
@@ -2299,6 +2681,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/node-cron/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -2311,6 +2695,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/cron-parser/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -2323,6 +2709,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/es-toolkit/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [collection]
     maintainer: siesta-ai-protocol
@@ -2335,6 +2723,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/hono/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -2347,6 +2737,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/koa/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [http]
     maintainer: siesta-ai-protocol
@@ -2359,6 +2751,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/date-fns-tz/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [datetime]
     maintainer: siesta-ai-protocol
@@ -2371,6 +2765,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/remark/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [markdown]
     maintainer: siesta-ai-protocol
@@ -2383,6 +2779,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/cuid2/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [uuid]
     maintainer: siesta-ai-protocol
@@ -2395,6 +2793,8 @@ libraries:
     repository: https://github.com/siesta-ai-protocol/siesta-ts
     manifest: packages/pluralize/siesta.manifest.json
     siestaVersion: "1.0"
+    packageVersion: "1.0.0"
+    packageRange: "^1.0 || ^2.0 || ^3.0 || ^4.0"
     status: experimental
     categories: [string]
     maintainer: siesta-ai-protocol
