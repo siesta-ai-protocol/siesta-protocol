@@ -4,10 +4,2398 @@ libraries:
     description: Date and time manipulation via nesbot/carbon
     language: PHP
     package: siesta/carbon
-    repository: https://github.com/siesta-ai-protocol/siesta
+    repository: https://github.com/siesta-ai-protocol/siesta-php
     manifest: packages/siesta-carbon/siesta.manifest.json
     siestaVersion: "1.0"
     status: official
-    categories: [datetime, laravel]
+    categories: [datetime]
     maintainer: siesta-ai-protocol
-    added: 2026-09-02
+    added: "2026-09-02"
+  - id: siesta-guzzle
+    name: Guzzle HTTP
+    description: HTTP client for PHP
+    language: PHP
+    package: siesta/guzzle
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-guzzle/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-monolog
+    name: Monolog
+    description: Logging library for PHP
+    language: PHP
+    package: siesta/monolog
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-monolog/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [logging]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-uuid
+    name: Ramsey UUID
+    description: UUID generation and parsing
+    language: PHP
+    package: siesta/uuid
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-uuid/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [uuid]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-flysystem
+    name: Flysystem
+    description: Filesystem abstraction
+    language: PHP
+    package: siesta/flysystem
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-flysystem/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-commonmark
+    name: CommonMark
+    description: Markdown parser
+    language: PHP
+    package: siesta/commonmark
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-commonmark/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [markdown]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-csv
+    name: League CSV
+    description: CSV import/export
+    language: PHP
+    package: siesta/csv
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-csv/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-uri
+    name: League URI
+    description: URI manipulation
+    language: PHP
+    package: siesta/uri
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-uri/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-period
+    name: League Period
+    description: Time period handling
+    language: PHP
+    package: siesta/period
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-period/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-money
+    name: Money PHP
+    description: Money value objects
+    language: PHP
+    package: siesta/money
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-money/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-brick-math
+    name: Brick Math
+    description: Arbitrary-precision arithmetic
+    language: PHP
+    package: siesta/brick-math
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-brick-math/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-brick-money
+    name: Brick Money
+    description: Money and currency library
+    language: PHP
+    package: siesta/brick-money
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-brick-money/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-collections
+    name: Doctrine Collections
+    description: Object collections
+    language: PHP
+    package: siesta/collections
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-collections/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-inflector
+    name: Doctrine Inflector
+    description: String inflection
+    language: PHP
+    package: siesta/inflector
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-inflector/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dbal
+    name: Doctrine DBAL
+    description: Database abstraction layer
+    language: PHP
+    package: siesta/dbal
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-dbal/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-http-client
+    name: Symfony HTTP Client
+    description: HTTP client component
+    language: PHP
+    package: siesta/http-client
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-http-client/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-validator
+    name: Symfony Validator
+    description: Data validation
+    language: PHP
+    package: siesta/validator
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-validator/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-serializer
+    name: Symfony Serializer
+    description: Object serialization
+    language: PHP
+    package: siesta/serializer
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-serializer/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-finder
+    name: Symfony Finder
+    description: File finder component
+    language: PHP
+    package: siesta/finder
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-finder/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-string
+    name: Symfony String
+    description: Object-oriented strings
+    language: PHP
+    package: siesta/string
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-string/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-filesystem
+    name: Symfony Filesystem
+    description: Filesystem utilities
+    language: PHP
+    package: siesta/filesystem
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-filesystem/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cache
+    name: Symfony Cache
+    description: Caching component
+    language: PHP
+    package: siesta/cache
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-cache/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mime
+    name: Symfony MIME
+    description: MIME type utilities
+    language: PHP
+    package: siesta/mime
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-mime/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [mail]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mailer
+    name: Symfony Mailer
+    description: Email sending
+    language: PHP
+    package: siesta/mailer
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-mailer/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [mail]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-symfony-uid
+    name: Symfony UID
+    description: UUIDs and ULIDs
+    language: PHP
+    package: siesta/symfony-uid
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-symfony-uid/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [uuid]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-clock
+    name: Symfony Clock
+    description: Clock abstraction
+    language: PHP
+    package: siesta/clock
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-clock/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-process
+    name: Symfony Process
+    description: Process execution
+    language: PHP
+    package: siesta/process
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-process/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dom-crawler
+    name: Symfony DomCrawler
+    description: DOM crawling
+    language: PHP
+    package: siesta/dom-crawler
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-dom-crawler/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [dom]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-css-selector
+    name: Symfony CssSelector
+    description: CSS to XPath
+    language: PHP
+    package: siesta/css-selector
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-css-selector/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [dom]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-yaml
+    name: Symfony YAML
+    description: YAML parser
+    language: PHP
+    package: siesta/yaml
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-yaml/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-var-dumper
+    name: Symfony VarDumper
+    description: Variable dumping
+    language: PHP
+    package: siesta/var-dumper
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-var-dumper/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-event-dispatcher
+    name: Symfony EventDispatcher
+    description: Event dispatching
+    language: PHP
+    package: siesta/event-dispatcher
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-event-dispatcher/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-property-access
+    name: Symfony PropertyAccess
+    description: Property access
+    language: PHP
+    package: siesta/property-access
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-property-access/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-translation
+    name: Symfony Translation
+    description: Translation component
+    language: PHP
+    package: siesta/translation
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-translation/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-psr7
+    name: Guzzle PSR-7
+    description: PSR-7 HTTP message implementation
+    language: PHP
+    package: siesta/psr7
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-psr7/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-promises
+    name: Guzzle Promises
+    description: Promise library
+    language: PHP
+    package: siesta/promises
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-promises/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-email-validator
+    name: Email Validator
+    description: Email address validation
+    language: PHP
+    package: siesta/email-validator
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-email-validator/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-portable-ascii
+    name: Portable ASCII
+    description: ASCII transliteration
+    language: PHP
+    package: siesta/portable-ascii
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-portable-ascii/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-anti-xss
+    name: Anti XSS
+    description: XSS filtering
+    language: PHP
+    package: siesta/anti-xss
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-anti-xss/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-respect-validation
+    name: Respect Validation
+    description: Validation engine
+    language: PHP
+    package: siesta/respect-validation
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-respect-validation/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-chronos
+    name: Chronos
+    description: Immutable date/time
+    language: PHP
+    package: siesta/chronos
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-chronos/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cake-utility
+    name: CakePHP Utility
+    description: Utility helpers
+    language: PHP
+    package: siesta/cake-utility
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-cake-utility/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-intervention-image
+    name: Intervention Image
+    description: Image manipulation
+    language: PHP
+    package: siesta/intervention-image
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-intervention-image/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [image]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-spatie-image
+    name: Spatie Image
+    description: Image manipulation
+    language: PHP
+    package: siesta/spatie-image
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-spatie-image/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [image]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-browsershot
+    name: Browsershot
+    description: Screenshot and PDF via headless Chrome
+    language: PHP
+    package: siesta/browsershot
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-browsershot/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-pdf-to-text
+    name: PDF to Text
+    description: Extract text from PDF
+    language: PHP
+    package: siesta/pdf-to-text
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-pdf-to-text/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-laravel-data
+    name: Laravel Data
+    description: Data transfer objects
+    language: PHP
+    package: siesta/laravel-data
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-laravel-data/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-once
+    name: Spatie Once
+    description: Memoize function results
+    language: PHP
+    package: siesta/once
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-once/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dompdf-wrapper
+    name: Laravel DomPDF
+    description: PDF generation wrapper
+    language: PHP
+    package: siesta/dompdf-wrapper
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-dompdf-wrapper/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dompdf
+    name: DomPDF
+    description: HTML to PDF
+    language: PHP
+    package: siesta/dompdf
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-dompdf/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-phpspreadsheet
+    name: PhpSpreadsheet
+    description: Spreadsheet read/write
+    language: PHP
+    package: siesta/phpspreadsheet
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-phpspreadsheet/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-phpword
+    name: PHPWord
+    description: Word document generation
+    language: PHP
+    package: siesta/phpword
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-phpword/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-tcpdf
+    name: TCPDF
+    description: PDF generation
+    language: PHP
+    package: siesta/tcpdf
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-tcpdf/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-fpdi
+    name: FPDI
+    description: PDF import
+    language: PHP
+    package: siesta/fpdi
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-fpdi/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-escpos
+    name: ESC/POS
+    description: Receipt printer library
+    language: PHP
+    package: siesta/escpos
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-escpos/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-predis
+    name: Predis
+    description: Redis client
+    language: PHP
+    package: siesta/predis
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-predis/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-elasticsearch
+    name: Elasticsearch PHP
+    description: Elasticsearch client
+    language: PHP
+    package: siesta/elasticsearch
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-elasticsearch/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-aws-sdk
+    name: AWS SDK PHP
+    description: Amazon Web Services SDK
+    language: PHP
+    package: siesta/aws-sdk
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-aws-sdk/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-google-cloud
+    name: Google Cloud PHP
+    description: Google Cloud client libraries
+    language: PHP
+    package: siesta/google-cloud
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-google-cloud/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-stripe
+    name: Stripe PHP
+    description: Stripe payments SDK
+    language: PHP
+    package: siesta/stripe
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-stripe/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-twilio
+    name: Twilio SDK
+    description: Twilio communications SDK
+    language: PHP
+    package: siesta/twilio
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-twilio/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-sendgrid
+    name: SendGrid
+    description: SendGrid mail API
+    language: PHP
+    package: siesta/sendgrid
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-sendgrid/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [mail]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mailgun
+    name: Mailgun PHP
+    description: Mailgun API client
+    language: PHP
+    package: siesta/mailgun
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-mailgun/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [mail]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-phpmailer
+    name: PHPMailer
+    description: Email sending library
+    language: PHP
+    package: siesta/phpmailer
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-phpmailer/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [mail]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-swiftmailer
+    name: SwiftMailer
+    description: Legacy email library
+    language: PHP
+    package: siesta/swiftmailer
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-swiftmailer/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [mail]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-php-jwt
+    name: Firebase PHP-JWT
+    description: JWT encode/decode
+    language: PHP
+    package: siesta/php-jwt
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-php-jwt/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-lcobucci-jwt
+    name: Lcobucci JWT
+    description: JWT library
+    language: PHP
+    package: siesta/lcobucci-jwt
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-lcobucci-jwt/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-defuse-encryption
+    name: Defuse Encryption
+    description: Secure PHP encryption
+    language: PHP
+    package: siesta/defuse-encryption
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-defuse-encryption/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-halite
+    name: Halite
+    description: High-level cryptography
+    language: PHP
+    package: siesta/halite
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-halite/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-constant-time-encoding
+    name: Constant Time Encoding
+    description: Constant-time encoding
+    language: PHP
+    package: siesta/constant-time-encoding
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-constant-time-encoding/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-hashids
+    name: Hashids
+    description: Generate short unique ids from numbers
+    language: PHP
+    package: siesta/hashids
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-hashids/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ramsey-collection
+    name: Ramsey Collection
+    description: Typed collections
+    language: PHP
+    package: siesta/ramsey-collection
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-ramsey-collection/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-illuminate-support
+    name: Illuminate Support
+    description: Laravel support helpers / collections
+    language: PHP
+    package: siesta/illuminate-support
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-illuminate-support/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-illuminate-validation
+    name: Illuminate Validation
+    description: Laravel validation
+    language: PHP
+    package: siesta/illuminate-validation
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-illuminate-validation/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-illuminate-filesystem
+    name: Illuminate Filesystem
+    description: Laravel filesystem
+    language: PHP
+    package: siesta/illuminate-filesystem
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-illuminate-filesystem/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-illuminate-http
+    name: Illuminate HTTP
+    description: Laravel HTTP client/request
+    language: PHP
+    package: siesta/illuminate-http
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-illuminate-http/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-collect
+    name: Collect
+    description: Illuminate collections standalone
+    language: PHP
+    package: siesta/collect
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-collect/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-assert
+    name: Assert
+    description: Assertions library
+    language: PHP
+    package: siesta/assert
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-assert/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-webmozart-assert
+    name: Webmozart Assert
+    description: Assertions
+    language: PHP
+    package: siesta/webmozart-assert
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-webmozart-assert/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-php-parser
+    name: PHP-Parser
+    description: PHP AST parser
+    language: PHP
+    package: siesta/php-parser
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-php-parser/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-twig
+    name: Twig
+    description: Template engine
+    language: PHP
+    package: siesta/twig
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-twig/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-smarty
+    name: Smarty
+    description: Template engine
+    language: PHP
+    package: siesta/smarty
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-smarty/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-spout
+    name: Spout
+    description: Spreadsheet reader/writer
+    language: PHP
+    package: siesta/spout
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-spout/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-openspout
+    name: OpenSpout
+    description: Spreadsheet reader/writer
+    language: PHP
+    package: siesta/openspout
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-openspout/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-box-spout
+    name: Box Spout
+    description: Legacy spreadsheet library
+    language: PHP
+    package: siesta/box-spout
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-box-spout/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-forceutf8
+    name: ForceUTF8
+    description: UTF-8 encoding fixer
+    language: PHP
+    package: siesta/forceutf8
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-forceutf8/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-patchwork-utf8
+    name: Patchwork UTF-8
+    description: UTF-8 string helpers
+    language: PHP
+    package: siesta/patchwork-utf8
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-patchwork-utf8/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-jmespath
+    name: JMESPath PHP
+    description: JSON query language
+    language: PHP
+    package: siesta/jmespath
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-jmespath/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mtdowling-jmespath
+    name: JMESPath (mtdowling)
+    description: JSON query language
+    language: PHP
+    package: siesta/mtdowling-jmespath
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-mtdowling-jmespath/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-composer-semver
+    name: Composer Semver
+    description: Semantic versioning utilities
+    language: PHP
+    package: siesta/composer-semver
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-composer-semver/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-json-schema
+    name: JSON Schema
+    description: JSON Schema validator
+    language: PHP
+    package: siesta/json-schema
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-json-schema/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-opis-json-schema
+    name: Opis JSON Schema
+    description: JSON Schema validator
+    language: PHP
+    package: siesta/opis-json-schema
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-opis-json-schema/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-swaggest-json-schema
+    name: Swaggest JSON Schema
+    description: JSON Schema validator
+    language: PHP
+    package: siesta/swaggest-json-schema
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-swaggest-json-schema/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-nette-utils
+    name: Nette Utils
+    description: Nette utility classes
+    language: PHP
+    package: siesta/nette-utils
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-nette-utils/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-nette-schema
+    name: Nette Schema
+    description: Schema validation
+    language: PHP
+    package: siesta/nette-schema
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-nette-schema/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-reflection-docblock
+    name: Reflection DocBlock
+    description: DocBlock parser
+    language: PHP
+    package: siesta/reflection-docblock
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-reflection-docblock/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-sebastian-diff
+    name: Sebastian Diff
+    description: Diff implementation
+    language: PHP
+    package: siesta/sebastian-diff
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-sebastian-diff/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cron-expression
+    name: Cron Expression
+    description: Cron expression parser
+    language: PHP
+    package: siesta/cron-expression
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-cron-expression/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-brick-date-time
+    name: Brick DateTime
+    description: Date and time value objects
+    language: PHP
+    package: siesta/brick-date-time
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-brick-date-time/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-phpdotenv
+    name: PHP dotenv
+    description: Environment loader
+    language: PHP
+    package: siesta/phpdotenv
+    repository: https://github.com/siesta-ai-protocol/siesta-php
+    manifest: packages/siesta-phpdotenv/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-carbon-date
+    name: date-fns
+    description: Date manipulation via date-fns
+    language: TypeScript
+    package: "@siesta/carbon-date"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/carbon-date/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: official
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-02"
+  - id: siesta-axios
+    name: Axios
+    description: Promise-based HTTP client
+    language: TypeScript
+    package: "@siesta/axios"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/axios/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-zod
+    name: Zod
+    description: TypeScript-first schema validation
+    language: TypeScript
+    package: "@siesta/zod"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/zod/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dayjs
+    name: Day.js
+    description: Minimalist date library
+    language: TypeScript
+    package: "@siesta/dayjs"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/dayjs/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-uuid-js
+    name: UUID
+    description: RFC UUID generation
+    language: TypeScript
+    package: "@siesta/uuid-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/uuid-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [uuid]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-lodash-es
+    name: Lodash ES
+    description: Utility library (ES modules)
+    language: TypeScript
+    package: "@siesta/lodash-es"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/lodash-es/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-lodash
+    name: Lodash
+    description: Utility library
+    language: TypeScript
+    package: "@siesta/lodash"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/lodash/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-marked
+    name: Marked
+    description: Markdown parser
+    language: TypeScript
+    package: "@siesta/marked"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/marked/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [markdown]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cheerio
+    name: Cheerio
+    description: Server-side jQuery-like DOM
+    language: TypeScript
+    package: "@siesta/cheerio"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/cheerio/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [dom]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ms
+    name: ms
+    description: Convert time strings to ms
+    language: TypeScript
+    package: "@siesta/ms"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/ms/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-semver
+    name: semver
+    description: Semantic versioning
+    language: TypeScript
+    package: "@siesta/semver"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/semver/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-qs
+    name: qs
+    description: Query string parsing
+    language: TypeScript
+    package: "@siesta/qs"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/qs/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-nanoid
+    name: Nanoid
+    description: Tiny unique string ID generator
+    language: TypeScript
+    package: "@siesta/nanoid"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/nanoid/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [uuid]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-validator-js
+    name: Validator.js
+    description: String validators
+    language: TypeScript
+    package: "@siesta/validator-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/validator-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-immutable
+    name: Immutable.js
+    description: Immutable collections
+    language: TypeScript
+    package: "@siesta/immutable"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/immutable/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-luxon
+    name: Luxon
+    description: DateTime library
+    language: TypeScript
+    package: "@siesta/luxon"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/luxon/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-moment
+    name: Moment.js
+    description: Legacy date library
+    language: TypeScript
+    package: "@siesta/moment"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/moment/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-bluebird
+    name: Bluebird
+    description: Promise library
+    language: TypeScript
+    package: "@siesta/bluebird"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/bluebird/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-rxjs
+    name: RxJS
+    description: Reactive extensions
+    language: TypeScript
+    package: "@siesta/rxjs"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/rxjs/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-underscore
+    name: Underscore
+    description: Utility belt
+    language: TypeScript
+    package: "@siesta/underscore"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/underscore/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ramda
+    name: Ramda
+    description: Functional utilities
+    language: TypeScript
+    package: "@siesta/ramda"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/ramda/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-joi
+    name: Joi
+    description: Object schema validation
+    language: TypeScript
+    package: "@siesta/joi"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/joi/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-yup
+    name: Yup
+    description: Schema builder
+    language: TypeScript
+    package: "@siesta/yup"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/yup/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ajv
+    name: Ajv
+    description: JSON Schema validator
+    language: TypeScript
+    package: "@siesta/ajv"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/ajv/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-superagent
+    name: SuperAgent
+    description: HTTP request library
+    language: TypeScript
+    package: "@siesta/superagent"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/superagent/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-node-fetch
+    name: node-fetch
+    description: Fetch API for Node
+    language: TypeScript
+    package: "@siesta/node-fetch"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/node-fetch/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-got
+    name: Got
+    description: Human-friendly HTTP client
+    language: TypeScript
+    package: "@siesta/got"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/got/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ky
+    name: Ky
+    description: Tiny HTTP client
+    language: TypeScript
+    package: "@siesta/ky"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/ky/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-undici
+    name: Undici
+    description: HTTP/1.1 client
+    language: TypeScript
+    package: "@siesta/undici"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/undici/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-form-data
+    name: Form-Data
+    description: Multipart form data
+    language: TypeScript
+    package: "@siesta/form-data"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/form-data/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mime-js
+    name: Mime
+    description: MIME type utilities
+    language: TypeScript
+    package: "@siesta/mime-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/mime-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mime-types
+    name: mime-types
+    description: MIME type mapping
+    language: TypeScript
+    package: "@siesta/mime-types"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/mime-types/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-content-type
+    name: content-type
+    description: Content-Type parser
+    language: TypeScript
+    package: "@siesta/content-type"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/content-type/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cookie
+    name: cookie
+    description: Cookie parse/serialize
+    language: TypeScript
+    package: "@siesta/cookie"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/cookie/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-tough-cookie
+    name: Tough Cookie
+    description: RFC-compliant cookie jar
+    language: TypeScript
+    package: "@siesta/tough-cookie"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/tough-cookie/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-url-parse
+    name: url-parse
+    description: URL parser
+    language: TypeScript
+    package: "@siesta/url-parse"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/url-parse/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-query-string
+    name: query-string
+    description: Parse and stringify URL query strings
+    language: TypeScript
+    package: "@siesta/query-string"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/query-string/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-path-to-regexp
+    name: path-to-regexp
+    description: Path pattern matching
+    language: TypeScript
+    package: "@siesta/path-to-regexp"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/path-to-regexp/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-express
+    name: Express
+    description: Web framework (library surface)
+    language: TypeScript
+    package: "@siesta/express"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/express/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-fastify
+    name: Fastify
+    description: Web framework
+    language: TypeScript
+    package: "@siesta/fastify"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/fastify/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-debug
+    name: debug
+    description: Tiny debug utility
+    language: TypeScript
+    package: "@siesta/debug"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/debug/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [logging]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-pino
+    name: Pino
+    description: Fast JSON logger
+    language: TypeScript
+    package: "@siesta/pino"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/pino/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [logging]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-winston
+    name: Winston
+    description: Logging library
+    language: TypeScript
+    package: "@siesta/winston"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/winston/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [logging]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-chalk
+    name: Chalk
+    description: Terminal string styling
+    language: TypeScript
+    package: "@siesta/chalk"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/chalk/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-picocolors
+    name: picocolors
+    description: Tiny terminal colors
+    language: TypeScript
+    package: "@siesta/picocolors"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/picocolors/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-strip-ansi
+    name: strip-ansi
+    description: Strip ANSI escape codes
+    language: TypeScript
+    package: "@siesta/strip-ansi"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/strip-ansi/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-string-width
+    name: string-width
+    description: String display width
+    language: TypeScript
+    package: "@siesta/string-width"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/string-width/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-camelcase
+    name: camelcase
+    description: Convert to camelCase
+    language: TypeScript
+    package: "@siesta/camelcase"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/camelcase/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-slugify
+    name: slugify
+    description: URL slug generator
+    language: TypeScript
+    package: "@siesta/slugify"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/slugify/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-change-case
+    name: change-case
+    description: Case conversion
+    language: TypeScript
+    package: "@siesta/change-case"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/change-case/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-he
+    name: he
+    description: HTML entity encoder/decoder
+    language: TypeScript
+    package: "@siesta/he"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/he/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-entities
+    name: entities
+    description: HTML entity encode/decode
+    language: TypeScript
+    package: "@siesta/entities"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/entities/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-sanitize-html
+    name: sanitize-html
+    description: HTML sanitizer
+    language: TypeScript
+    package: "@siesta/sanitize-html"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/sanitize-html/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dompurify
+    name: DOMPurify
+    description: XSS sanitizer
+    language: TypeScript
+    package: "@siesta/dompurify"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/dompurify/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [validation]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-jsonwebtoken
+    name: jsonwebtoken
+    description: JWT implementation
+    language: TypeScript
+    package: "@siesta/jsonwebtoken"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/jsonwebtoken/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-jose
+    name: jose
+    description: JWT / JWS / JWE
+    language: TypeScript
+    package: "@siesta/jose"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/jose/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-bcryptjs
+    name: bcryptjs
+    description: bcrypt in pure JS
+    language: TypeScript
+    package: "@siesta/bcryptjs"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/bcryptjs/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-crypto-js
+    name: CryptoJS
+    description: Crypto standards
+    language: TypeScript
+    package: "@siesta/crypto-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/crypto-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-node-forge
+    name: node-forge
+    description: TLS and crypto toolkit
+    language: TypeScript
+    package: "@siesta/node-forge"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/node-forge/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [crypto]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ulid
+    name: ULID
+    description: Universally unique lexicographically sortable identifiers
+    language: TypeScript
+    package: "@siesta/ulid"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/ulid/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [uuid]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-csv-parse
+    name: csv-parse
+    description: CSV parser
+    language: TypeScript
+    package: "@siesta/csv-parse"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/csv-parse/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-csv-stringify
+    name: csv-stringify
+    description: CSV stringifier
+    language: TypeScript
+    package: "@siesta/csv-stringify"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/csv-stringify/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-papaparse
+    name: Papa Parse
+    description: CSV parser
+    language: TypeScript
+    package: "@siesta/papaparse"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/papaparse/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-xlsx
+    name: SheetJS
+    description: Spreadsheet parser
+    language: TypeScript
+    package: "@siesta/xlsx"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/xlsx/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-exceljs
+    name: ExcelJS
+    description: Excel workbook library
+    language: TypeScript
+    package: "@siesta/exceljs"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/exceljs/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-pdfkit
+    name: PDFKit
+    description: PDF generation
+    language: TypeScript
+    package: "@siesta/pdfkit"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/pdfkit/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-pdf-lib
+    name: pdf-lib
+    description: Create and modify PDF
+    language: TypeScript
+    package: "@siesta/pdf-lib"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/pdf-lib/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-jspdf
+    name: jsPDF
+    description: PDF generation in JS
+    language: TypeScript
+    package: "@siesta/jspdf"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/jspdf/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [pdf]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-sharp
+    name: Sharp
+    description: High-performance image processing
+    language: TypeScript
+    package: "@siesta/sharp"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/sharp/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [image]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-jimp
+    name: Jimp
+    description: Image processing in pure JS
+    language: TypeScript
+    package: "@siesta/jimp"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/jimp/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [image]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-markdown-it
+    name: markdown-it
+    description: Markdown parser
+    language: TypeScript
+    package: "@siesta/markdown-it"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/markdown-it/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [markdown]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-turndown
+    name: Turndown
+    description: HTML to Markdown
+    language: TypeScript
+    package: "@siesta/turndown"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/turndown/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [markdown]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-highlight-js
+    name: highlight.js
+    description: Syntax highlighting
+    language: TypeScript
+    package: "@siesta/highlight-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/highlight-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-decimal-js
+    name: decimal.js
+    description: Arbitrary-precision decimals
+    language: TypeScript
+    package: "@siesta/decimal-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/decimal-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-big-js
+    name: big.js
+    description: Small arbitrary-precision library
+    language: TypeScript
+    package: "@siesta/big-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/big-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-bignumber-js
+    name: bignumber.js
+    description: Arbitrary-precision arithmetic
+    language: TypeScript
+    package: "@siesta/bignumber-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/bignumber-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-currency-js
+    name: currency.js
+    description: Currency math
+    language: TypeScript
+    package: "@siesta/currency-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/currency-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dinero-js
+    name: Dinero.js
+    description: Monetary values
+    language: TypeScript
+    package: "@siesta/dinero-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/dinero-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-numeral
+    name: Numeral.js
+    description: Number formatting
+    language: TypeScript
+    package: "@siesta/numeral"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/numeral/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [money]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-i18next
+    name: i18next
+    description: Internationalization
+    language: TypeScript
+    package: "@siesta/i18next"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/i18next/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-mustache
+    name: Mustache
+    description: Logic-less templates
+    language: TypeScript
+    package: "@siesta/mustache"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/mustache/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-handlebars
+    name: Handlebars
+    description: Template engine
+    language: TypeScript
+    package: "@siesta/handlebars"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/handlebars/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-ejs
+    name: EJS
+    description: Embedded JS templates
+    language: TypeScript
+    package: "@siesta/ejs"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/ejs/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [other]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-yaml-js
+    name: yaml
+    description: YAML parser
+    language: TypeScript
+    package: "@siesta/yaml-js"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/yaml-js/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-js-yaml
+    name: js-yaml
+    description: YAML parser
+    language: TypeScript
+    package: "@siesta/js-yaml"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/js-yaml/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-dotenv
+    name: dotenv
+    description: Load .env files
+    language: TypeScript
+    package: "@siesta/dotenv"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/dotenv/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-fs-extra
+    name: fs-extra
+    description: Extended filesystem methods
+    language: TypeScript
+    package: "@siesta/fs-extra"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/fs-extra/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-glob
+    name: glob
+    description: File globbing
+    language: TypeScript
+    package: "@siesta/glob"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/glob/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-fast-glob
+    name: fast-glob
+    description: Fast file globbing
+    language: TypeScript
+    package: "@siesta/fast-glob"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/fast-glob/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-chokidar
+    name: chokidar
+    description: File watcher
+    language: TypeScript
+    package: "@siesta/chokidar"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/chokidar/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-jszip
+    name: JSZip
+    description: Create and read zip files
+    language: TypeScript
+    package: "@siesta/jszip"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/jszip/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [file]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-node-cron
+    name: node-cron
+    description: Cron scheduling
+    language: TypeScript
+    package: "@siesta/node-cron"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/node-cron/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cron-parser
+    name: cron-parser
+    description: Cron expression parser
+    language: TypeScript
+    package: "@siesta/cron-parser"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/cron-parser/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-es-toolkit
+    name: es-toolkit
+    description: Modern utility library
+    language: TypeScript
+    package: "@siesta/es-toolkit"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/es-toolkit/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [collection]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-hono
+    name: Hono
+    description: Small web framework
+    language: TypeScript
+    package: "@siesta/hono"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/hono/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-koa
+    name: Koa
+    description: Web framework
+    language: TypeScript
+    package: "@siesta/koa"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/koa/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [http]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-date-fns-tz
+    name: date-fns-tz
+    description: Timezone support for date-fns
+    language: TypeScript
+    package: "@siesta/date-fns-tz"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/date-fns-tz/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [datetime]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-remark
+    name: remark
+    description: Markdown processor
+    language: TypeScript
+    package: "@siesta/remark"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/remark/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [markdown]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-cuid2
+    name: cuid2
+    description: Secure unique ids
+    language: TypeScript
+    package: "@siesta/cuid2"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/cuid2/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [uuid]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"
+  - id: siesta-pluralize
+    name: pluralize
+    description: Pluralize and singularize words
+    language: TypeScript
+    package: "@siesta/pluralize"
+    repository: https://github.com/siesta-ai-protocol/siesta-ts
+    manifest: packages/pluralize/siesta.manifest.json
+    siestaVersion: "1.0"
+    status: experimental
+    categories: [string]
+    maintainer: siesta-ai-protocol
+    added: "2026-09-08"

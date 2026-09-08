@@ -1,0 +1,1441 @@
+{
+  "php": [
+    {
+      "pkg": "nesbot/carbon",
+      "slug": "carbon",
+      "name": "Carbon Date/Time",
+      "cat": "datetime",
+      "desc": "Date and time manipulation via nesbot/carbon",
+      "existing": true,
+      "deep": true
+    },
+    {
+      "pkg": "guzzlehttp/guzzle",
+      "slug": "guzzle",
+      "name": "Guzzle HTTP",
+      "cat": "http",
+      "desc": "HTTP client for PHP",
+      "deep": true
+    },
+    {
+      "pkg": "monolog/monolog",
+      "slug": "monolog",
+      "name": "Monolog",
+      "cat": "logging",
+      "desc": "Logging library for PHP",
+      "deep": true
+    },
+    {
+      "pkg": "ramsey/uuid",
+      "slug": "uuid",
+      "name": "Ramsey UUID",
+      "cat": "uuid",
+      "desc": "UUID generation and parsing",
+      "deep": true
+    },
+    {
+      "pkg": "league/flysystem",
+      "slug": "flysystem",
+      "name": "Flysystem",
+      "cat": "file",
+      "desc": "Filesystem abstraction"
+    },
+    {
+      "pkg": "league/commonmark",
+      "slug": "commonmark",
+      "name": "CommonMark",
+      "cat": "markdown",
+      "desc": "Markdown parser"
+    },
+    {
+      "pkg": "league/csv",
+      "slug": "csv",
+      "name": "League CSV",
+      "cat": "file",
+      "desc": "CSV import/export",
+      "deep": true
+    },
+    {
+      "pkg": "league/uri",
+      "slug": "uri",
+      "name": "League URI",
+      "cat": "http",
+      "desc": "URI manipulation"
+    },
+    {
+      "pkg": "league/period",
+      "slug": "period",
+      "name": "League Period",
+      "cat": "datetime",
+      "desc": "Time period handling"
+    },
+    {
+      "pkg": "moneyphp/money",
+      "slug": "money",
+      "name": "Money PHP",
+      "cat": "money",
+      "desc": "Money value objects",
+      "deep": true
+    },
+    {
+      "pkg": "brick/math",
+      "slug": "brick-math",
+      "name": "Brick Math",
+      "cat": "other",
+      "desc": "Arbitrary-precision arithmetic",
+      "deep": true
+    },
+    {
+      "pkg": "brick/money",
+      "slug": "brick-money",
+      "name": "Brick Money",
+      "cat": "money",
+      "desc": "Money and currency library"
+    },
+    {
+      "pkg": "doctrine/collections",
+      "slug": "collections",
+      "name": "Doctrine Collections",
+      "cat": "collection",
+      "desc": "Object collections",
+      "deep": true
+    },
+    {
+      "pkg": "doctrine/inflector",
+      "slug": "inflector",
+      "name": "Doctrine Inflector",
+      "cat": "string",
+      "desc": "String inflection"
+    },
+    {
+      "pkg": "doctrine/dbal",
+      "slug": "dbal",
+      "name": "Doctrine DBAL",
+      "cat": "other",
+      "desc": "Database abstraction layer"
+    },
+    {
+      "pkg": "symfony/http-client",
+      "slug": "http-client",
+      "name": "Symfony HTTP Client",
+      "cat": "http",
+      "desc": "HTTP client component"
+    },
+    {
+      "pkg": "symfony/validator",
+      "slug": "validator",
+      "name": "Symfony Validator",
+      "cat": "validation",
+      "desc": "Data validation",
+      "deep": true
+    },
+    {
+      "pkg": "symfony/serializer",
+      "slug": "serializer",
+      "name": "Symfony Serializer",
+      "cat": "other",
+      "desc": "Object serialization"
+    },
+    {
+      "pkg": "symfony/finder",
+      "slug": "finder",
+      "name": "Symfony Finder",
+      "cat": "file",
+      "desc": "File finder component"
+    },
+    {
+      "pkg": "symfony/string",
+      "slug": "string",
+      "name": "Symfony String",
+      "cat": "string",
+      "desc": "Object-oriented strings",
+      "deep": true
+    },
+    {
+      "pkg": "symfony/filesystem",
+      "slug": "filesystem",
+      "name": "Symfony Filesystem",
+      "cat": "file",
+      "desc": "Filesystem utilities"
+    },
+    {
+      "pkg": "symfony/cache",
+      "slug": "cache",
+      "name": "Symfony Cache",
+      "cat": "other",
+      "desc": "Caching component"
+    },
+    {
+      "pkg": "symfony/mime",
+      "slug": "mime",
+      "name": "Symfony MIME",
+      "cat": "mail",
+      "desc": "MIME type utilities"
+    },
+    {
+      "pkg": "symfony/mailer",
+      "slug": "mailer",
+      "name": "Symfony Mailer",
+      "cat": "mail",
+      "desc": "Email sending"
+    },
+    {
+      "pkg": "symfony/uid",
+      "slug": "symfony-uid",
+      "name": "Symfony UID",
+      "cat": "uuid",
+      "desc": "UUIDs and ULIDs",
+      "deep": true
+    },
+    {
+      "pkg": "symfony/clock",
+      "slug": "clock",
+      "name": "Symfony Clock",
+      "cat": "datetime",
+      "desc": "Clock abstraction"
+    },
+    {
+      "pkg": "symfony/process",
+      "slug": "process",
+      "name": "Symfony Process",
+      "cat": "other",
+      "desc": "Process execution"
+    },
+    {
+      "pkg": "symfony/dom-crawler",
+      "slug": "dom-crawler",
+      "name": "Symfony DomCrawler",
+      "cat": "dom",
+      "desc": "DOM crawling"
+    },
+    {
+      "pkg": "symfony/css-selector",
+      "slug": "css-selector",
+      "name": "Symfony CssSelector",
+      "cat": "dom",
+      "desc": "CSS to XPath"
+    },
+    {
+      "pkg": "symfony/yaml",
+      "slug": "yaml",
+      "name": "Symfony YAML",
+      "cat": "file",
+      "desc": "YAML parser"
+    },
+    {
+      "pkg": "symfony/var-dumper",
+      "slug": "var-dumper",
+      "name": "Symfony VarDumper",
+      "cat": "other",
+      "desc": "Variable dumping"
+    },
+    {
+      "pkg": "symfony/event-dispatcher",
+      "slug": "event-dispatcher",
+      "name": "Symfony EventDispatcher",
+      "cat": "other",
+      "desc": "Event dispatching"
+    },
+    {
+      "pkg": "symfony/property-access",
+      "slug": "property-access",
+      "name": "Symfony PropertyAccess",
+      "cat": "other",
+      "desc": "Property access"
+    },
+    {
+      "pkg": "symfony/translation",
+      "slug": "translation",
+      "name": "Symfony Translation",
+      "cat": "string",
+      "desc": "Translation component"
+    },
+    {
+      "pkg": "guzzlehttp/psr7",
+      "slug": "psr7",
+      "name": "Guzzle PSR-7",
+      "cat": "http",
+      "desc": "PSR-7 HTTP message implementation"
+    },
+    {
+      "pkg": "guzzlehttp/promises",
+      "slug": "promises",
+      "name": "Guzzle Promises",
+      "cat": "other",
+      "desc": "Promise library"
+    },
+    {
+      "pkg": "egulias/email-validator",
+      "slug": "email-validator",
+      "name": "Email Validator",
+      "cat": "validation",
+      "desc": "Email address validation",
+      "deep": true
+    },
+    {
+      "pkg": "voku/portable-ascii",
+      "slug": "portable-ascii",
+      "name": "Portable ASCII",
+      "cat": "string",
+      "desc": "ASCII transliteration"
+    },
+    {
+      "pkg": "voku/anti-xss",
+      "slug": "anti-xss",
+      "name": "Anti XSS",
+      "cat": "validation",
+      "desc": "XSS filtering"
+    },
+    {
+      "pkg": "respect/validation",
+      "slug": "respect-validation",
+      "name": "Respect Validation",
+      "cat": "validation",
+      "desc": "Validation engine",
+      "deep": true
+    },
+    {
+      "pkg": "cakephp/chronos",
+      "slug": "chronos",
+      "name": "Chronos",
+      "cat": "datetime",
+      "desc": "Immutable date/time"
+    },
+    {
+      "pkg": "cakephp/utility",
+      "slug": "cake-utility",
+      "name": "CakePHP Utility",
+      "cat": "other",
+      "desc": "Utility helpers"
+    },
+    {
+      "pkg": "intervention/image",
+      "slug": "intervention-image",
+      "name": "Intervention Image",
+      "cat": "image",
+      "desc": "Image manipulation"
+    },
+    {
+      "pkg": "spatie/image",
+      "slug": "spatie-image",
+      "name": "Spatie Image",
+      "cat": "image",
+      "desc": "Image manipulation"
+    },
+    {
+      "pkg": "spatie/browsershot",
+      "slug": "browsershot",
+      "name": "Browsershot",
+      "cat": "other",
+      "desc": "Screenshot and PDF via headless Chrome"
+    },
+    {
+      "pkg": "spatie/pdf-to-text",
+      "slug": "pdf-to-text",
+      "name": "PDF to Text",
+      "cat": "pdf",
+      "desc": "Extract text from PDF"
+    },
+    {
+      "pkg": "spatie/laravel-data",
+      "slug": "laravel-data",
+      "name": "Laravel Data",
+      "cat": "other",
+      "desc": "Data transfer objects"
+    },
+    {
+      "pkg": "spatie/once",
+      "slug": "once",
+      "name": "Spatie Once",
+      "cat": "other",
+      "desc": "Memoize function results"
+    },
+    {
+      "pkg": "barryvdh/laravel-dompdf",
+      "slug": "dompdf-wrapper",
+      "name": "Laravel DomPDF",
+      "cat": "pdf",
+      "desc": "PDF generation wrapper"
+    },
+    {
+      "pkg": "dompdf/dompdf",
+      "slug": "dompdf",
+      "name": "DomPDF",
+      "cat": "pdf",
+      "desc": "HTML to PDF"
+    },
+    {
+      "pkg": "phpoffice/phpspreadsheet",
+      "slug": "phpspreadsheet",
+      "name": "PhpSpreadsheet",
+      "cat": "file",
+      "desc": "Spreadsheet read/write"
+    },
+    {
+      "pkg": "phpoffice/phpword",
+      "slug": "phpword",
+      "name": "PHPWord",
+      "cat": "file",
+      "desc": "Word document generation"
+    },
+    {
+      "pkg": "tecnickcom/tcpdf",
+      "slug": "tcpdf",
+      "name": "TCPDF",
+      "cat": "pdf",
+      "desc": "PDF generation"
+    },
+    {
+      "pkg": "setasign/fpdi",
+      "slug": "fpdi",
+      "name": "FPDI",
+      "cat": "pdf",
+      "desc": "PDF import"
+    },
+    {
+      "pkg": "mike42/escpos-php",
+      "slug": "escpos",
+      "name": "ESC/POS",
+      "cat": "other",
+      "desc": "Receipt printer library"
+    },
+    {
+      "pkg": "predis/predis",
+      "slug": "predis",
+      "name": "Predis",
+      "cat": "other",
+      "desc": "Redis client"
+    },
+    {
+      "pkg": "elasticsearch/elasticsearch",
+      "slug": "elasticsearch",
+      "name": "Elasticsearch PHP",
+      "cat": "other",
+      "desc": "Elasticsearch client"
+    },
+    {
+      "pkg": "aws/aws-sdk-php",
+      "slug": "aws-sdk",
+      "name": "AWS SDK PHP",
+      "cat": "other",
+      "desc": "Amazon Web Services SDK"
+    },
+    {
+      "pkg": "google/cloud",
+      "slug": "google-cloud",
+      "name": "Google Cloud PHP",
+      "cat": "other",
+      "desc": "Google Cloud client libraries"
+    },
+    {
+      "pkg": "stripe/stripe-php",
+      "slug": "stripe",
+      "name": "Stripe PHP",
+      "cat": "money",
+      "desc": "Stripe payments SDK"
+    },
+    {
+      "pkg": "twilio/sdk",
+      "slug": "twilio",
+      "name": "Twilio SDK",
+      "cat": "other",
+      "desc": "Twilio communications SDK"
+    },
+    {
+      "pkg": "sendgrid/sendgrid",
+      "slug": "sendgrid",
+      "name": "SendGrid",
+      "cat": "mail",
+      "desc": "SendGrid mail API"
+    },
+    {
+      "pkg": "mailgun/mailgun-php",
+      "slug": "mailgun",
+      "name": "Mailgun PHP",
+      "cat": "mail",
+      "desc": "Mailgun API client"
+    },
+    {
+      "pkg": "phpmailer/phpmailer",
+      "slug": "phpmailer",
+      "name": "PHPMailer",
+      "cat": "mail",
+      "desc": "Email sending library"
+    },
+    {
+      "pkg": "swiftmailer/swiftmailer",
+      "slug": "swiftmailer",
+      "name": "SwiftMailer",
+      "cat": "mail",
+      "desc": "Legacy email library"
+    },
+    {
+      "pkg": "firebase/php-jwt",
+      "slug": "php-jwt",
+      "name": "Firebase PHP-JWT",
+      "cat": "crypto",
+      "desc": "JWT encode/decode",
+      "deep": true
+    },
+    {
+      "pkg": "lcobucci/jwt",
+      "slug": "lcobucci-jwt",
+      "name": "Lcobucci JWT",
+      "cat": "crypto",
+      "desc": "JWT library"
+    },
+    {
+      "pkg": "defuse/php-encryption",
+      "slug": "defuse-encryption",
+      "name": "Defuse Encryption",
+      "cat": "crypto",
+      "desc": "Secure PHP encryption"
+    },
+    {
+      "pkg": "paragonie/halite",
+      "slug": "halite",
+      "name": "Halite",
+      "cat": "crypto",
+      "desc": "High-level cryptography"
+    },
+    {
+      "pkg": "paragonie/constant_time_encoding",
+      "slug": "constant-time-encoding",
+      "name": "Constant Time Encoding",
+      "cat": "crypto",
+      "desc": "Constant-time encoding"
+    },
+    {
+      "pkg": "hashids/hashids",
+      "slug": "hashids",
+      "name": "Hashids",
+      "cat": "crypto",
+      "desc": "Generate short unique ids from numbers",
+      "deep": true
+    },
+    {
+      "pkg": "ramsey/collection",
+      "slug": "ramsey-collection",
+      "name": "Ramsey Collection",
+      "cat": "collection",
+      "desc": "Typed collections"
+    },
+    {
+      "pkg": "illuminate/support",
+      "slug": "illuminate-support",
+      "name": "Illuminate Support",
+      "cat": "collection",
+      "desc": "Laravel support helpers / collections",
+      "deep": true
+    },
+    {
+      "pkg": "illuminate/validation",
+      "slug": "illuminate-validation",
+      "name": "Illuminate Validation",
+      "cat": "validation",
+      "desc": "Laravel validation"
+    },
+    {
+      "pkg": "illuminate/filesystem",
+      "slug": "illuminate-filesystem",
+      "name": "Illuminate Filesystem",
+      "cat": "file",
+      "desc": "Laravel filesystem"
+    },
+    {
+      "pkg": "illuminate/http",
+      "slug": "illuminate-http",
+      "name": "Illuminate HTTP",
+      "cat": "http",
+      "desc": "Laravel HTTP client/request"
+    },
+    {
+      "pkg": "tightenco/collect",
+      "slug": "collect",
+      "name": "Collect",
+      "cat": "collection",
+      "desc": "Illuminate collections standalone"
+    },
+    {
+      "pkg": "beberlei/assert",
+      "slug": "assert",
+      "name": "Assert",
+      "cat": "validation",
+      "desc": "Assertions library"
+    },
+    {
+      "pkg": "webmozart/assert",
+      "slug": "webmozart-assert",
+      "name": "Webmozart Assert",
+      "cat": "validation",
+      "desc": "Assertions",
+      "deep": true
+    },
+    {
+      "pkg": "nikic/php-parser",
+      "slug": "php-parser",
+      "name": "PHP-Parser",
+      "cat": "other",
+      "desc": "PHP AST parser"
+    },
+    {
+      "pkg": "twig/twig",
+      "slug": "twig",
+      "name": "Twig",
+      "cat": "other",
+      "desc": "Template engine"
+    },
+    {
+      "pkg": "smarty/smarty",
+      "slug": "smarty",
+      "name": "Smarty",
+      "cat": "other",
+      "desc": "Template engine"
+    },
+    {
+      "pkg": "mustangostango/spout",
+      "slug": "spout",
+      "name": "Spout",
+      "cat": "file",
+      "desc": "Spreadsheet reader/writer"
+    },
+    {
+      "pkg": "openspout/openspout",
+      "slug": "openspout",
+      "name": "OpenSpout",
+      "cat": "file",
+      "desc": "Spreadsheet reader/writer"
+    },
+    {
+      "pkg": "box/spout",
+      "slug": "box-spout",
+      "name": "Box Spout",
+      "cat": "file",
+      "desc": "Legacy spreadsheet library"
+    },
+    {
+      "pkg": "neitanod/forceutf8",
+      "slug": "forceutf8",
+      "name": "ForceUTF8",
+      "cat": "string",
+      "desc": "UTF-8 encoding fixer"
+    },
+    {
+      "pkg": "patchwork/utf8",
+      "slug": "patchwork-utf8",
+      "name": "Patchwork UTF-8",
+      "cat": "string",
+      "desc": "UTF-8 string helpers"
+    },
+    {
+      "pkg": "jmespath/jmespath.php",
+      "slug": "jmespath",
+      "name": "JMESPath PHP",
+      "cat": "other",
+      "desc": "JSON query language"
+    },
+    {
+      "pkg": "mtdowling/jmespath.php",
+      "slug": "mtdowling-jmespath",
+      "name": "JMESPath (mtdowling)",
+      "cat": "other",
+      "desc": "JSON query language"
+    },
+    {
+      "pkg": "composer/semver",
+      "slug": "composer-semver",
+      "name": "Composer Semver",
+      "cat": "other",
+      "desc": "Semantic versioning utilities",
+      "deep": true
+    },
+    {
+      "pkg": "justinrainbow/json-schema",
+      "slug": "json-schema",
+      "name": "JSON Schema",
+      "cat": "validation",
+      "desc": "JSON Schema validator"
+    },
+    {
+      "pkg": "opis/json-schema",
+      "slug": "opis-json-schema",
+      "name": "Opis JSON Schema",
+      "cat": "validation",
+      "desc": "JSON Schema validator"
+    },
+    {
+      "pkg": "swaggest/json-schema",
+      "slug": "swaggest-json-schema",
+      "name": "Swaggest JSON Schema",
+      "cat": "validation",
+      "desc": "JSON Schema validator"
+    },
+    {
+      "pkg": "nette/utils",
+      "slug": "nette-utils",
+      "name": "Nette Utils",
+      "cat": "other",
+      "desc": "Nette utility classes"
+    },
+    {
+      "pkg": "nette/schema",
+      "slug": "nette-schema",
+      "name": "Nette Schema",
+      "cat": "validation",
+      "desc": "Schema validation"
+    },
+    {
+      "pkg": "phpdocumentor/reflection-docblock",
+      "slug": "reflection-docblock",
+      "name": "Reflection DocBlock",
+      "cat": "other",
+      "desc": "DocBlock parser"
+    },
+    {
+      "pkg": "sebastian/diff",
+      "slug": "sebastian-diff",
+      "name": "Sebastian Diff",
+      "cat": "other",
+      "desc": "Diff implementation"
+    },
+    {
+      "pkg": "dragonmantank/cron-expression",
+      "slug": "cron-expression",
+      "name": "Cron Expression",
+      "cat": "datetime",
+      "desc": "Cron expression parser",
+      "deep": true
+    },
+    {
+      "pkg": "brick/date-time",
+      "slug": "brick-date-time",
+      "name": "Brick DateTime",
+      "cat": "datetime",
+      "desc": "Date and time value objects",
+      "deep": true
+    },
+    {
+      "pkg": "vlucas/phpdotenv",
+      "slug": "phpdotenv",
+      "name": "PHP dotenv",
+      "cat": "file",
+      "desc": "Environment loader"
+    }
+  ],
+  "js": [
+    {
+      "pkg": "date-fns",
+      "slug": "carbon-date",
+      "name": "date-fns",
+      "cat": "datetime",
+      "desc": "Date manipulation via date-fns",
+      "existing": true,
+      "deep": true
+    },
+    {
+      "pkg": "axios",
+      "slug": "axios",
+      "name": "Axios",
+      "cat": "http",
+      "desc": "Promise-based HTTP client",
+      "deep": true
+    },
+    {
+      "pkg": "zod",
+      "slug": "zod",
+      "name": "Zod",
+      "cat": "validation",
+      "desc": "TypeScript-first schema validation",
+      "deep": true
+    },
+    {
+      "pkg": "dayjs",
+      "slug": "dayjs",
+      "name": "Day.js",
+      "cat": "datetime",
+      "desc": "Minimalist date library",
+      "deep": true
+    },
+    {
+      "pkg": "uuid",
+      "slug": "uuid-js",
+      "name": "UUID",
+      "cat": "uuid",
+      "desc": "RFC UUID generation",
+      "deep": true
+    },
+    {
+      "pkg": "lodash-es",
+      "slug": "lodash-es",
+      "name": "Lodash ES",
+      "cat": "collection",
+      "desc": "Utility library (ES modules)",
+      "deep": true
+    },
+    {
+      "pkg": "lodash",
+      "slug": "lodash",
+      "name": "Lodash",
+      "cat": "collection",
+      "desc": "Utility library"
+    },
+    {
+      "pkg": "marked",
+      "slug": "marked",
+      "name": "Marked",
+      "cat": "markdown",
+      "desc": "Markdown parser",
+      "deep": true
+    },
+    {
+      "pkg": "cheerio",
+      "slug": "cheerio",
+      "name": "Cheerio",
+      "cat": "dom",
+      "desc": "Server-side jQuery-like DOM",
+      "deep": true
+    },
+    {
+      "pkg": "ms",
+      "slug": "ms",
+      "name": "ms",
+      "cat": "datetime",
+      "desc": "Convert time strings to ms",
+      "deep": true
+    },
+    {
+      "pkg": "semver",
+      "slug": "semver",
+      "name": "semver",
+      "cat": "other",
+      "desc": "Semantic versioning",
+      "deep": true
+    },
+    {
+      "pkg": "qs",
+      "slug": "qs",
+      "name": "qs",
+      "cat": "http",
+      "desc": "Query string parsing",
+      "deep": true
+    },
+    {
+      "pkg": "nanoid",
+      "slug": "nanoid",
+      "name": "Nanoid",
+      "cat": "uuid",
+      "desc": "Tiny unique string ID generator",
+      "deep": true
+    },
+    {
+      "pkg": "validator",
+      "slug": "validator-js",
+      "name": "Validator.js",
+      "cat": "validation",
+      "desc": "String validators",
+      "deep": true
+    },
+    {
+      "pkg": "immutable",
+      "slug": "immutable",
+      "name": "Immutable.js",
+      "cat": "collection",
+      "desc": "Immutable collections"
+    },
+    {
+      "pkg": "luxon",
+      "slug": "luxon",
+      "name": "Luxon",
+      "cat": "datetime",
+      "desc": "DateTime library"
+    },
+    {
+      "pkg": "moment",
+      "slug": "moment",
+      "name": "Moment.js",
+      "cat": "datetime",
+      "desc": "Legacy date library"
+    },
+    {
+      "pkg": "bluebird",
+      "slug": "bluebird",
+      "name": "Bluebird",
+      "cat": "other",
+      "desc": "Promise library"
+    },
+    {
+      "pkg": "rxjs",
+      "slug": "rxjs",
+      "name": "RxJS",
+      "cat": "other",
+      "desc": "Reactive extensions"
+    },
+    {
+      "pkg": "underscore",
+      "slug": "underscore",
+      "name": "Underscore",
+      "cat": "collection",
+      "desc": "Utility belt"
+    },
+    {
+      "pkg": "ramda",
+      "slug": "ramda",
+      "name": "Ramda",
+      "cat": "collection",
+      "desc": "Functional utilities"
+    },
+    {
+      "pkg": "joi",
+      "slug": "joi",
+      "name": "Joi",
+      "cat": "validation",
+      "desc": "Object schema validation"
+    },
+    {
+      "pkg": "yup",
+      "slug": "yup",
+      "name": "Yup",
+      "cat": "validation",
+      "desc": "Schema builder"
+    },
+    {
+      "pkg": "ajv",
+      "slug": "ajv",
+      "name": "Ajv",
+      "cat": "validation",
+      "desc": "JSON Schema validator"
+    },
+    {
+      "pkg": "superagent",
+      "slug": "superagent",
+      "name": "SuperAgent",
+      "cat": "http",
+      "desc": "HTTP request library"
+    },
+    {
+      "pkg": "node-fetch",
+      "slug": "node-fetch",
+      "name": "node-fetch",
+      "cat": "http",
+      "desc": "Fetch API for Node"
+    },
+    {
+      "pkg": "got",
+      "slug": "got",
+      "name": "Got",
+      "cat": "http",
+      "desc": "Human-friendly HTTP client"
+    },
+    {
+      "pkg": "ky",
+      "slug": "ky",
+      "name": "Ky",
+      "cat": "http",
+      "desc": "Tiny HTTP client"
+    },
+    {
+      "pkg": "undici",
+      "slug": "undici",
+      "name": "Undici",
+      "cat": "http",
+      "desc": "HTTP/1.1 client"
+    },
+    {
+      "pkg": "form-data",
+      "slug": "form-data",
+      "name": "Form-Data",
+      "cat": "http",
+      "desc": "Multipart form data"
+    },
+    {
+      "pkg": "mime",
+      "slug": "mime-js",
+      "name": "Mime",
+      "cat": "http",
+      "desc": "MIME type utilities"
+    },
+    {
+      "pkg": "mime-types",
+      "slug": "mime-types",
+      "name": "mime-types",
+      "cat": "http",
+      "desc": "MIME type mapping"
+    },
+    {
+      "pkg": "content-type",
+      "slug": "content-type",
+      "name": "content-type",
+      "cat": "http",
+      "desc": "Content-Type parser"
+    },
+    {
+      "pkg": "cookie",
+      "slug": "cookie",
+      "name": "cookie",
+      "cat": "http",
+      "desc": "Cookie parse/serialize"
+    },
+    {
+      "pkg": "tough-cookie",
+      "slug": "tough-cookie",
+      "name": "Tough Cookie",
+      "cat": "http",
+      "desc": "RFC-compliant cookie jar"
+    },
+    {
+      "pkg": "url-parse",
+      "slug": "url-parse",
+      "name": "url-parse",
+      "cat": "http",
+      "desc": "URL parser"
+    },
+    {
+      "pkg": "query-string",
+      "slug": "query-string",
+      "name": "query-string",
+      "cat": "http",
+      "desc": "Parse and stringify URL query strings"
+    },
+    {
+      "pkg": "path-to-regexp",
+      "slug": "path-to-regexp",
+      "name": "path-to-regexp",
+      "cat": "http",
+      "desc": "Path pattern matching"
+    },
+    {
+      "pkg": "express",
+      "slug": "express",
+      "name": "Express",
+      "cat": "http",
+      "desc": "Web framework (library surface)"
+    },
+    {
+      "pkg": "fastify",
+      "slug": "fastify",
+      "name": "Fastify",
+      "cat": "http",
+      "desc": "Web framework"
+    },
+    {
+      "pkg": "debug",
+      "slug": "debug",
+      "name": "debug",
+      "cat": "logging",
+      "desc": "Tiny debug utility"
+    },
+    {
+      "pkg": "pino",
+      "slug": "pino",
+      "name": "Pino",
+      "cat": "logging",
+      "desc": "Fast JSON logger"
+    },
+    {
+      "pkg": "winston",
+      "slug": "winston",
+      "name": "Winston",
+      "cat": "logging",
+      "desc": "Logging library"
+    },
+    {
+      "pkg": "chalk",
+      "slug": "chalk",
+      "name": "Chalk",
+      "cat": "string",
+      "desc": "Terminal string styling"
+    },
+    {
+      "pkg": "picocolors",
+      "slug": "picocolors",
+      "name": "picocolors",
+      "cat": "string",
+      "desc": "Tiny terminal colors"
+    },
+    {
+      "pkg": "strip-ansi",
+      "slug": "strip-ansi",
+      "name": "strip-ansi",
+      "cat": "string",
+      "desc": "Strip ANSI escape codes"
+    },
+    {
+      "pkg": "string-width",
+      "slug": "string-width",
+      "name": "string-width",
+      "cat": "string",
+      "desc": "String display width"
+    },
+    {
+      "pkg": "camelcase",
+      "slug": "camelcase",
+      "name": "camelcase",
+      "cat": "string",
+      "desc": "Convert to camelCase"
+    },
+    {
+      "pkg": "slugify",
+      "slug": "slugify",
+      "name": "slugify",
+      "cat": "string",
+      "desc": "URL slug generator"
+    },
+    {
+      "pkg": "change-case",
+      "slug": "change-case",
+      "name": "change-case",
+      "cat": "string",
+      "desc": "Case conversion"
+    },
+    {
+      "pkg": "he",
+      "slug": "he",
+      "name": "he",
+      "cat": "string",
+      "desc": "HTML entity encoder/decoder"
+    },
+    {
+      "pkg": "entities",
+      "slug": "entities",
+      "name": "entities",
+      "cat": "string",
+      "desc": "HTML entity encode/decode"
+    },
+    {
+      "pkg": "sanitize-html",
+      "slug": "sanitize-html",
+      "name": "sanitize-html",
+      "cat": "validation",
+      "desc": "HTML sanitizer"
+    },
+    {
+      "pkg": "dompurify",
+      "slug": "dompurify",
+      "name": "DOMPurify",
+      "cat": "validation",
+      "desc": "XSS sanitizer"
+    },
+    {
+      "pkg": "jsonwebtoken",
+      "slug": "jsonwebtoken",
+      "name": "jsonwebtoken",
+      "cat": "crypto",
+      "desc": "JWT implementation"
+    },
+    {
+      "pkg": "jose",
+      "slug": "jose",
+      "name": "jose",
+      "cat": "crypto",
+      "desc": "JWT / JWS / JWE"
+    },
+    {
+      "pkg": "bcryptjs",
+      "slug": "bcryptjs",
+      "name": "bcryptjs",
+      "cat": "crypto",
+      "desc": "bcrypt in pure JS"
+    },
+    {
+      "pkg": "crypto-js",
+      "slug": "crypto-js",
+      "name": "CryptoJS",
+      "cat": "crypto",
+      "desc": "Crypto standards"
+    },
+    {
+      "pkg": "node-forge",
+      "slug": "node-forge",
+      "name": "node-forge",
+      "cat": "crypto",
+      "desc": "TLS and crypto toolkit"
+    },
+    {
+      "pkg": "ulid",
+      "slug": "ulid",
+      "name": "ULID",
+      "cat": "uuid",
+      "desc": "Universally unique lexicographically sortable identifiers"
+    },
+    {
+      "pkg": "csv-parse",
+      "slug": "csv-parse",
+      "name": "csv-parse",
+      "cat": "file",
+      "desc": "CSV parser"
+    },
+    {
+      "pkg": "csv-stringify",
+      "slug": "csv-stringify",
+      "name": "csv-stringify",
+      "cat": "file",
+      "desc": "CSV stringifier"
+    },
+    {
+      "pkg": "papaparse",
+      "slug": "papaparse",
+      "name": "Papa Parse",
+      "cat": "file",
+      "desc": "CSV parser"
+    },
+    {
+      "pkg": "xlsx",
+      "slug": "xlsx",
+      "name": "SheetJS",
+      "cat": "file",
+      "desc": "Spreadsheet parser"
+    },
+    {
+      "pkg": "exceljs",
+      "slug": "exceljs",
+      "name": "ExcelJS",
+      "cat": "file",
+      "desc": "Excel workbook library"
+    },
+    {
+      "pkg": "pdfkit",
+      "slug": "pdfkit",
+      "name": "PDFKit",
+      "cat": "pdf",
+      "desc": "PDF generation"
+    },
+    {
+      "pkg": "pdf-lib",
+      "slug": "pdf-lib",
+      "name": "pdf-lib",
+      "cat": "pdf",
+      "desc": "Create and modify PDF"
+    },
+    {
+      "pkg": "jspdf",
+      "slug": "jspdf",
+      "name": "jsPDF",
+      "cat": "pdf",
+      "desc": "PDF generation in JS"
+    },
+    {
+      "pkg": "sharp",
+      "slug": "sharp",
+      "name": "Sharp",
+      "cat": "image",
+      "desc": "High-performance image processing"
+    },
+    {
+      "pkg": "jimp",
+      "slug": "jimp",
+      "name": "Jimp",
+      "cat": "image",
+      "desc": "Image processing in pure JS"
+    },
+    {
+      "pkg": "markdown-it",
+      "slug": "markdown-it",
+      "name": "markdown-it",
+      "cat": "markdown",
+      "desc": "Markdown parser"
+    },
+    {
+      "pkg": "turndown",
+      "slug": "turndown",
+      "name": "Turndown",
+      "cat": "markdown",
+      "desc": "HTML to Markdown"
+    },
+    {
+      "pkg": "highlight.js",
+      "slug": "highlight-js",
+      "name": "highlight.js",
+      "cat": "other",
+      "desc": "Syntax highlighting"
+    },
+    {
+      "pkg": "decimal.js",
+      "slug": "decimal-js",
+      "name": "decimal.js",
+      "cat": "money",
+      "desc": "Arbitrary-precision decimals"
+    },
+    {
+      "pkg": "big.js",
+      "slug": "big-js",
+      "name": "big.js",
+      "cat": "money",
+      "desc": "Small arbitrary-precision library"
+    },
+    {
+      "pkg": "bignumber.js",
+      "slug": "bignumber-js",
+      "name": "bignumber.js",
+      "cat": "money",
+      "desc": "Arbitrary-precision arithmetic"
+    },
+    {
+      "pkg": "currency.js",
+      "slug": "currency-js",
+      "name": "currency.js",
+      "cat": "money",
+      "desc": "Currency math"
+    },
+    {
+      "pkg": "dinero.js",
+      "slug": "dinero-js",
+      "name": "Dinero.js",
+      "cat": "money",
+      "desc": "Monetary values"
+    },
+    {
+      "pkg": "numeral",
+      "slug": "numeral",
+      "name": "Numeral.js",
+      "cat": "money",
+      "desc": "Number formatting"
+    },
+    {
+      "pkg": "i18next",
+      "slug": "i18next",
+      "name": "i18next",
+      "cat": "string",
+      "desc": "Internationalization"
+    },
+    {
+      "pkg": "mustache",
+      "slug": "mustache",
+      "name": "Mustache",
+      "cat": "other",
+      "desc": "Logic-less templates"
+    },
+    {
+      "pkg": "handlebars",
+      "slug": "handlebars",
+      "name": "Handlebars",
+      "cat": "other",
+      "desc": "Template engine"
+    },
+    {
+      "pkg": "ejs",
+      "slug": "ejs",
+      "name": "EJS",
+      "cat": "other",
+      "desc": "Embedded JS templates"
+    },
+    {
+      "pkg": "yaml",
+      "slug": "yaml-js",
+      "name": "yaml",
+      "cat": "file",
+      "desc": "YAML parser"
+    },
+    {
+      "pkg": "js-yaml",
+      "slug": "js-yaml",
+      "name": "js-yaml",
+      "cat": "file",
+      "desc": "YAML parser"
+    },
+    {
+      "pkg": "dotenv",
+      "slug": "dotenv",
+      "name": "dotenv",
+      "cat": "file",
+      "desc": "Load .env files"
+    },
+    {
+      "pkg": "fs-extra",
+      "slug": "fs-extra",
+      "name": "fs-extra",
+      "cat": "file",
+      "desc": "Extended filesystem methods"
+    },
+    {
+      "pkg": "glob",
+      "slug": "glob",
+      "name": "glob",
+      "cat": "file",
+      "desc": "File globbing"
+    },
+    {
+      "pkg": "fast-glob",
+      "slug": "fast-glob",
+      "name": "fast-glob",
+      "cat": "file",
+      "desc": "Fast file globbing"
+    },
+    {
+      "pkg": "chokidar",
+      "slug": "chokidar",
+      "name": "chokidar",
+      "cat": "file",
+      "desc": "File watcher"
+    },
+    {
+      "pkg": "jszip",
+      "slug": "jszip",
+      "name": "JSZip",
+      "cat": "file",
+      "desc": "Create and read zip files"
+    },
+    {
+      "pkg": "node-cron",
+      "slug": "node-cron",
+      "name": "node-cron",
+      "cat": "datetime",
+      "desc": "Cron scheduling"
+    },
+    {
+      "pkg": "cron-parser",
+      "slug": "cron-parser",
+      "name": "cron-parser",
+      "cat": "datetime",
+      "desc": "Cron expression parser"
+    },
+    {
+      "pkg": "es-toolkit",
+      "slug": "es-toolkit",
+      "name": "es-toolkit",
+      "cat": "collection",
+      "desc": "Modern utility library"
+    },
+    {
+      "pkg": "hono",
+      "slug": "hono",
+      "name": "Hono",
+      "cat": "http",
+      "desc": "Small web framework"
+    },
+    {
+      "pkg": "koa",
+      "slug": "koa",
+      "name": "Koa",
+      "cat": "http",
+      "desc": "Web framework"
+    },
+    {
+      "pkg": "date-fns-tz",
+      "slug": "date-fns-tz",
+      "name": "date-fns-tz",
+      "cat": "datetime",
+      "desc": "Timezone support for date-fns"
+    },
+    {
+      "pkg": "remark",
+      "slug": "remark",
+      "name": "remark",
+      "cat": "markdown",
+      "desc": "Markdown processor"
+    },
+    {
+      "pkg": "cuid2",
+      "slug": "cuid2",
+      "name": "cuid2",
+      "cat": "uuid",
+      "desc": "Secure unique ids"
+    },
+    {
+      "pkg": "pluralize",
+      "slug": "pluralize",
+      "name": "pluralize",
+      "cat": "string",
+      "desc": "Pluralize and singularize words"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://siesta-ai-protocol.github.io/siesta-protocol/spec/message-schema.json",
+  "title": "Siesta Protocol Message Schema",
+  "description": "JSON Schema for Siesta v1.0 wire messages — in-process handle() params/results and JSON-RPC 2.0 envelopes.",
+  "definitions": {
+    "siestaVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Protocol version (major.minor)"
+    },
+    "handleId": {
+      "type": "string",
+      "pattern": "^hdl_",
+      "description": "Opaque instance handle within a session"
+    },
+    "sessionId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Session workspace for an agent run"
+    },
+    "libraryId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "errorCode": {
+      "type": "string",
+      "enum": [
+        "LIBRARY_NOT_FOUND",
+        "HANDLE_EXPIRED",
+        "METHOD_NOT_FOUND",
+        "INVALID_ARGUMENT",
+        "TYPE_MISMATCH",
+        "CONFIG_INVALID",
+        "PERMISSION_DENIED",
+        "INTERNAL"
+      ]
+    },
+    "siestaError": {
+      "type": "object",
+      "required": ["code", "message", "retryable"],
+      "additionalProperties": false,
+      "properties": {
+        "code": { "$ref": "#/definitions/errorCode" },
+        "message": { "type": "string" },
+        "retryable": { "type": "boolean" },
+        "field": { "type": "string" },
+        "validValues": { "type": "array" },
+        "suggestedFix": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "docs": { "type": "string" }
+      }
+    },
+    "errorResult": {
+      "type": "object",
+      "required": ["error"],
+      "additionalProperties": false,
+      "properties": {
+        "error": { "$ref": "#/definitions/siestaError" }
+      }
+    },
+    "snapshot": {
+      "description": "Adapter-defined serializable view of an instance",
+      "type": ["object", "array", "string", "number", "boolean", "null"]
+    },
+    "handleResult": {
+      "type": "object",
+      "required": ["siestaVersion", "handle"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "handle": { "$ref": "#/definitions/handleId" },
+        "type": { "type": "string" },
+        "snapshot": { "$ref": "#/definitions/snapshot" }
+      }
+    },
+    "valueResult": {
+      "type": "object",
+      "required": ["siestaVersion", "value"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "value": true,
+        "type": { "type": "string" }
+      }
+    },
+    "discoveredLibrary": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "$ref": "#/definitions/libraryId" },
+        "name": { "type": "string" },
+        "version": { "type": "string" },
+        "manifest": { "type": "string", "description": "Filesystem path or URI to siesta.manifest.json" },
+        "package": { "type": ["string", "null"] },
+        "valid": { "type": "boolean" },
+        "executable": { "type": "boolean" },
+        "registered": { "type": "boolean" },
+        "adapter": { "type": ["string", "null"] },
+        "validationErrors": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "validationLibrary": {
+      "type": "object",
+      "required": ["id", "valid"],
+      "properties": {
+        "id": { "$ref": "#/definitions/libraryId" },
+        "manifest": { "type": "string" },
+        "valid": { "type": "boolean" },
+        "executable": { "type": "boolean" },
+        "errors": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "jsonRpcId": {
+      "type": ["string", "number", "null"]
+    },
+    "jsonRpcRequest": {
+      "type": "object",
+      "required": ["jsonrpc", "method"],
+      "properties": {
+        "jsonrpc": { "const": "2.0" },
+        "id": { "$ref": "#/definitions/jsonRpcId" },
+        "method": {
+          "type": "string",
+          "enum": [
+            "siesta.discover",
+            "siesta.validate",
+            "siesta.introspect",
+            "siesta.configure",
+            "siesta.create",
+            "siesta.invoke",
+            "siesta.release",
+            "siesta.batch",
+            "siesta.describe"
+          ]
+        },
+        "params": { "type": "object" }
+      }
+    },
+    "jsonRpcSuccess": {
+      "type": "object",
+      "required": ["jsonrpc", "id", "result"],
+      "additionalProperties": false,
+      "properties": {
+        "jsonrpc": { "const": "2.0" },
+        "id": { "$ref": "#/definitions/jsonRpcId" },
+        "result": { "type": "object" }
+      }
+    },
+    "jsonRpcError": {
+      "type": "object",
+      "required": ["jsonrpc", "id", "error"],
+      "additionalProperties": false,
+      "properties": {
+        "jsonrpc": { "const": "2.0" },
+        "id": { "$ref": "#/definitions/jsonRpcId" },
+        "error": {
+          "type": "object",
+          "required": ["code", "message"],
+          "properties": {
+            "code": { "type": "integer" },
+            "message": { "type": "string" },
+            "data": { "$ref": "#/definitions/siestaError" }
+          }
+        }
+      }
+    },
+    "jsonRpcResponse": {
+      "oneOf": [
+        { "$ref": "#/definitions/jsonRpcSuccess" },
+        { "$ref": "#/definitions/jsonRpcError" }
+      ]
+    },
+
+    "discoverParams": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {}
+    },
+    "discoverResult": {
+      "type": "object",
+      "required": ["siestaVersion", "sessionId", "libraries"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "sessionId": { "$ref": "#/definitions/sessionId" },
+        "projectRoot": { "type": "string" },
+        "libraries": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/discoveredLibrary" }
+        }
+      }
+    },
+
+    "validateParams": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {}
+    },
+    "validateResult": {
+      "type": "object",
+      "required": ["siestaVersion", "valid", "libraries"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "valid": { "type": "boolean" },
+        "libraries": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/validationLibrary" }
+        }
+      }
+    },
+
+    "introspectParams": {
+      "type": "object",
+      "required": ["library"],
+      "additionalProperties": false,
+      "properties": {
+        "library": { "$ref": "#/definitions/libraryId" }
+      }
+    },
+    "introspectResult": {
+      "type": "object",
+      "required": ["siestaVersion", "manifest"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "manifest": {
+          "type": "object",
+          "description": "Full library manifest (see manifest-schema.json)"
+        }
+      }
+    },
+
+    "configureParams": {
+      "type": "object",
+      "required": ["library", "settings"],
+      "additionalProperties": false,
+      "properties": {
+        "library": { "$ref": "#/definitions/libraryId" },
+        "settings": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Validated against the library manifest config schema"
+        }
+      }
+    },
+    "configureResult": {
+      "type": "object",
+      "required": ["siestaVersion", "library", "config"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "library": { "$ref": "#/definitions/libraryId" },
+        "config": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      }
+    },
+
+    "createParams": {
+      "type": "object",
+      "required": ["library", "factory"],
+      "additionalProperties": false,
+      "properties": {
+        "library": { "$ref": "#/definitions/libraryId" },
+        "factory": { "type": "string", "minLength": 1 },
+        "args": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+    "createResult": {
+      "$ref": "#/definitions/handleResult"
+    },
+
+    "invokeParams": {
+      "type": "object",
+      "required": ["handle", "method"],
+      "additionalProperties": false,
+      "properties": {
+        "handle": { "$ref": "#/definitions/handleId" },
+        "method": { "type": "string", "minLength": 1 },
+        "args": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+    "invokeResult": {
+      "oneOf": [
+        { "$ref": "#/definitions/handleResult" },
+        { "$ref": "#/definitions/valueResult" }
+      ]
+    },
+
+    "releaseParams": {
+      "type": "object",
+      "required": ["handles"],
+      "additionalProperties": false,
+      "properties": {
+        "handles": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/handleId" },
+          "minItems": 1
+        }
+      }
+    },
+    "releaseResult": {
+      "type": "object",
+      "required": ["siestaVersion", "released"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "released": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+
+    "batchOperation": {
+      "type": "object",
+      "required": ["method", "params"],
+      "additionalProperties": false,
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "siesta.discover",
+            "siesta.validate",
+            "siesta.introspect",
+            "siesta.configure",
+            "siesta.create",
+            "siesta.invoke",
+            "siesta.release",
+            "siesta.describe"
+          ]
+        },
+        "params": { "type": "object" }
+      }
+    },
+    "batchParams": {
+      "type": "object",
+      "required": ["operations"],
+      "additionalProperties": false,
+      "properties": {
+        "operations": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/batchOperation" },
+          "minItems": 1
+        }
+      }
+    },
+    "batchSuccessResult": {
+      "type": "object",
+      "required": ["siestaVersion", "results"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "results": {
+          "type": "array",
+          "items": { "type": "object" }
+        }
+      }
+    },
+    "batchErrorResult": {
+      "type": "object",
+      "required": ["siestaVersion", "error", "completed"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "error": { "$ref": "#/definitions/siestaError" },
+        "completed": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of operations completed before the failure"
+        }
+      }
+    },
+    "batchResult": {
+      "oneOf": [
+        { "$ref": "#/definitions/batchSuccessResult" },
+        { "$ref": "#/definitions/batchErrorResult" }
+      ]
+    },
+
+    "describeParams": {
+      "type": "object",
+      "required": ["library", "capability"],
+      "additionalProperties": false,
+      "properties": {
+        "library": { "$ref": "#/definitions/libraryId" },
+        "capability": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Factory name or method name"
+        }
+      }
+    },
+    "describeResult": {
+      "type": "object",
+      "required": ["siestaVersion", "capability", "kind", "definition"],
+      "properties": {
+        "siestaVersion": { "$ref": "#/definitions/siestaVersion" },
+        "capability": { "type": "string" },
+        "kind": { "type": "string", "enum": ["factory", "method"] },
+        "type": {
+          "type": "string",
+          "description": "Owning type name when kind is method"
+        },
+        "definition": {
+          "type": "object",
+          "description": "Factory or method definition from the manifest"
+        }
+      }
+    },
+
+    "operation": {
+      "description": "Discriminated map of method → params/result schemas",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "siesta.discover": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/discoverParams" },
+            "result": { "$ref": "#/definitions/discoverResult" }
+          }
+        },
+        "siesta.validate": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/validateParams" },
+            "result": { "$ref": "#/definitions/validateResult" }
+          }
+        },
+        "siesta.introspect": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/introspectParams" },
+            "result": { "$ref": "#/definitions/introspectResult" }
+          }
+        },
+        "siesta.configure": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/configureParams" },
+            "result": { "$ref": "#/definitions/configureResult" }
+          }
+        },
+        "siesta.create": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/createParams" },
+            "result": { "$ref": "#/definitions/createResult" }
+          }
+        },
+        "siesta.invoke": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/invokeParams" },
+            "result": { "$ref": "#/definitions/invokeResult" }
+          }
+        },
+        "siesta.release": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/releaseParams" },
+            "result": { "$ref": "#/definitions/releaseResult" }
+          }
+        },
+        "siesta.batch": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/batchParams" },
+            "result": { "$ref": "#/definitions/batchResult" }
+          }
+        },
+        "siesta.describe": {
+          "type": "object",
+          "properties": {
+            "params": { "$ref": "#/definitions/describeParams" },
+            "result": { "$ref": "#/definitions/describeResult" }
+          }
+        }
+      }
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/jsonRpcRequest" },
+    { "$ref": "#/definitions/jsonRpcResponse" },
+    { "$ref": "#/definitions/errorResult" },
+    { "$ref": "#/definitions/discoverResult" },
+    { "$ref": "#/definitions/validateResult" },
+    { "$ref": "#/definitions/introspectResult" },
+    { "$ref": "#/definitions/configureResult" },
+    { "$ref": "#/definitions/createResult" },
+    { "$ref": "#/definitions/invokeResult" },
+    { "$ref": "#/definitions/releaseResult" },
+    { "$ref": "#/definitions/batchResult" },
+    { "$ref": "#/definitions/describeResult" }
+  ]
+}
